@@ -1,0 +1,88 @@
+# Folders
+data/
+models/
+logs/
+outputs/
+results/
+wandb/
+sh/
+openr1_ckpts/
+*.wandb
+*.out
+
+core
+test_all.ipynb
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 环境和依赖
+venv/
+env/
+.env
+.venv
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# 日志和缓存
+*.log
+logs/
+.cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 数据和模型文件
+data/
+*.pkl
+*.h5
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.model
+results/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 配置文件
+config.ini
+secrets.json
+credentials.json
+*.config
+
+# 临时文件
+tmp/
+temp/
+.temp/
+*.tmp
