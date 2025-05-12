@@ -6,11 +6,15 @@
 <a href="https://github.com/MPX0222/SQL-R1"><img src="https://img.shields.io/badge/🏠_Home-SQL--R1-4B4B77?style=flat-square"/></a>
 <a href="https://arxiv.org/abs/2504.08600"><img src="https://img.shields.io/badge/📑_arXiv-2504.08600-00A98F?style=flat-square"/></a>
 <a href="https://github.com/MPX0222/SQL-R1"><img src="https://img.shields.io/badge/⭐_GitHub-SQL--R1-2F80ED?style=flat-square"/></a>
-<a href="https://github.com/MPX0222/SQL-R1"><img src="https://img.shields.io/badge/🤗_HuggingFace-Models-FF9D00?style=flat-square"/></a>
+<!-- <a href="https://github.com/MPX0222/SQL-R1"><img src="https://img.shields.io/badge/🤗_HuggingFace-Models-FF9D00?style=flat-square"/></a> -->
 <a href="https://github.com/MPX0222/SQL-R1/stargazers"><img src="https://img.shields.io/github/stars/MPX0222/SQL-R1?style=flat-square&color=946CE6"/></a>
 </div>
 
-> 🚧 **Note:** This repository is under active development. We will be continuously updating with model weights, training code, and more resources in the coming weeks. Stay tuned! ✨
+<div style="background-color: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 5px; margin: 10px 0;">
+    <p style="margin: 0; color: #856404;">
+        <span style="font-weight: bold;">🚧 Note:</span> This repository is under active development. We will be continuously updating with model weights, training code, and more resources in the coming weeks. Stay tuned! ✨
+    </p>
+</div>
 
 ## 📖 Overview
 
@@ -26,11 +30,7 @@ Natural Language to SQL (NL2SQL) enables intuitive interactions with databases b
 - [ ] 📊 Release model weights on Hugging Face
 - [ ] 🔧 Open source training code
 - [ ] 📝 Detailed documentation
-- [ ] 🎯 Evaluation scripts and benchmarks
 - [ ] 🛠️ Environment setup guide
-- [ ] 📈 Training logs and results
-- [ ] 🎮 Interactive demo
-- [ ] 📚 Example usage and tutorials
 
 ## 📚 Citations
 ```
