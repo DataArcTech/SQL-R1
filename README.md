@@ -3,18 +3,15 @@
 </div>
 
 <div align="center" style="display: flex; gap: 5px; justify-content: center;">
-<a href="https://github.com/MPX0222/SQL-R1"><img src="https://img.shields.io/badge/🏠_Home-SQL--R1-4B4B77?style=flat-square"/></a>
+<a href="https://idea-finai.github.io/SQL-R1/"><img src="https://img.shields.io/badge/🏠_Homepage-SQL--R1-4B4B77?style=flat-square"/></a>
 <a href="https://arxiv.org/abs/2504.08600"><img src="https://img.shields.io/badge/📑_arXiv-2504.08600-00A98F?style=flat-square"/></a>
 <a href="https://github.com/MPX0222/SQL-R1"><img src="https://img.shields.io/badge/⭐_GitHub-SQL--R1-2F80ED?style=flat-square"/></a>
-<!-- <a href="https://github.com/MPX0222/SQL-R1"><img src="https://img.shields.io/badge/🤗_HuggingFace-Models-FF9D00?style=flat-square"/></a> -->
+<a href="https://huggingface.co/MPX0222forHF/SQL-R1-7B"><img src="https://img.shields.io/badge/🤗_HuggingFace-SQL--R1-FF9D00?style=flat-square"/></a>
 <a href="https://github.com/MPX0222/SQL-R1/stargazers"><img src="https://img.shields.io/github/stars/MPX0222/SQL-R1?style=flat-square&color=946CE6"/></a>
 </div>
 
-<div style="background-color: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 5px; margin: 10px 0;">
-    <p style="margin: 0; color: #856404;">
-        <span style="font-weight: bold;">🚧 Note:</span> This repository is under active development. We will be continuously updating with model weights, training code, and more resources in the coming weeks. Stay tuned! ✨
-    </p>
-</div>
+
+> 🚧 **Note:** This repository is under active development. We will be continuously updating with model weights, training code, and more resources in the coming weeks. Stay tuned! ✨
 
 ## 📖 Overview
 
@@ -27,13 +24,31 @@ Natural Language to SQL (NL2SQL) enables intuitive interactions with databases b
 
 ## 🚀 Coming Soon Checklist
 
-- [ ] 📊 Release model weights on Hugging Face
+- [x] 📊 Release model weights on HuggingFace
 - [ ] 🔧 Open source training code
 - [ ] 📝 Detailed documentation
 - [ ] 🛠️ Environment setup guide
 
+## 📰 News
+
+- **[2024.05]** 🎉 We have released our model weights on Hugging Face! Check out the [Model Weights](#-model-weights) section below.
+- **[2024.04]** 📑 Our paper is now available on [arXiv](https://arxiv.org/abs/2504.08600).
+
+## 🤖 Model Weights
+
+We are excited to release our SQL-R1 model weights! You can find them on Hugging Face:
+
+| Model  | Size | Link |
+|-------------|-------------|------|
+| SQL-R1 (3B) | 3B | [🤗 Download](https://huggingface.co/MPX0222forHF/SQL-R1-3B) |
+| SQL-R1 (7B) | 7B | [🤗 Download](https://huggingface.co/MPX0222forHF/SQL-R1-7B) |
+| SQL-R1 (14B) | 14B | [🤗 Download](https://huggingface.co/MPX0222forHF/SQL-R1-14B) |
+
+
+
 ## 📚 Citations
-```
+
+```bibtex
 @article{ma2025sql,
   title={SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning},
   author={Ma, Peixian and Zhuang, Xialie and Xu, Chengjin and Jiang, Xuhui and Chen, Ran and Guo, Jian},
@@ -41,9 +56,3 @@ Natural Language to SQL (NL2SQL) enables intuitive interactions with databases b
   year={2025}
 }
 ```
-
-
-
-
-
-
