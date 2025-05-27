@@ -22,17 +22,31 @@ Natural Language to SQL (NL2SQL) enables intuitive interactions with databases b
 </div>
 
 
-## 🚀 Coming Soon Checklist
+## 📚 Citations
 
-- [x] 📊 Release model weights on HuggingFace
-- [ ] 🔧 Open source training code
-- [ ] 📝 Detailed documentation
-- [ ] 🛠️ Environment setup guide
+```bibtex
+@article{ma2025sql,
+  title={SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning},
+  author={Ma, Peixian and Zhuang, Xialie and Xu, Chengjin and Jiang, Xuhui and Chen, Ran and Guo, Jian},
+  journal={arXiv preprint arXiv:2504.08600},
+  year={2025}
+}
+```
 
 ## 📰 News
 
-- **[2024.05]** 🎉 We have released our model weights on Hugging Face! Check out the [Model Weights](#-model-weights) section below.
-- **[2024.04]** 📑 Our paper is now available on [arXiv](https://arxiv.org/abs/2504.08600).
+- **[2024.05.27]** 🎉 We have released the full code of SQL-R1.
+- **[2024.05.21]** 🎉 We have released our model weights on Hugging Face! Check out the [Model Weights](#-model-weights) section below.
+- **[2024.04.11]** 📑 Our paper is now available on [arXiv](https://arxiv.org/abs/2504.08600).
+
+
+## 🚀 Coming Soon Checklist
+
+- [x] 📊 Release model weights on HuggingFace
+- [x] 🔧 Open source training code
+- [x] 📝 Detailed documentation
+- [x] 🛠️ Environment setup guide
+
 
 ## 🤖 Model Weights
 
@@ -45,14 +59,78 @@ We are excited to release our SQL-R1 model weights! You can find them on Hugging
 | SQL-R1 (14B) | 14B | [🤗 Download](https://huggingface.co/MPX0222forHF/SQL-R1-14B) |
 
 
+## 📑 Documentation Structure
 
-## 📚 Citations
+This repository is organized as follows:
 
-```bibtex
-@article{ma2025sql,
-  title={SQL-R1: Training Natural Language to SQL Reasoning Model By Reinforcement Learning},
-  author={Ma, Peixian and Zhuang, Xialie and Xu, Chengjin and Jiang, Xuhui and Chen, Ran and Guo, Jian},
-  journal={arXiv preprint arXiv:2504.08600},
-  year={2025}
-}
 ```
+SQL-R1/
+├── data/                             # Data processing scripts and datasets
+│   ├── Spider/      
+│   └── BIRD/        
+├── models/                           # Base models
+│   ├── Qwen2.5-Coder-3B-Instruct/   
+│   └── Qwen2.5-Coder-7B-Instruct/   
+├── sh/                               # Scripts for training, inference and evaluation
+├── src/                              # Source code
+└── verl/                             # Verl framework
+```
+
+
+## 🛠️ Environment Setup
+
+### Prerequisites
+- Python 3.9+
+- CUDA 12.0+
+- 8 x 80GB+ GPU (for training) / 2 x 40GB GPU (for inference)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/MPX0222/SQL-R1.git
+cd SQL-R1
+```
+
+2. Create and activate a virtual environment (recommended):
+```bash
+conda create -n sqlr1 python=3.9
+```
+
+3. Install dependencies:
+```bash
+pip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu121
+pip install vllm==0.6.3 ray
+pip install flash-attn --no-build-isolation
+pip install -e .  # For verl integration
+pip install wandb IPython matplotlib sqlparse func_timeout
+```
+
+4. Download the model weights from Hugging Face and put them in the `models/` directory
+
+5. Copy the database information in the `db_info` directory to the related dataset (`data/Spider/`, `data/BIRD/`) directory.
+
+## 🚀 Quick Start
+> Note: Please set the related data paths and params before running the scripts.
+
+1. Run training:
+```bash
+sh sh/train_sqlr1.sh
+```
+
+2. Run inference:
+```bash
+sh sh/inference.sh"
+```
+
+3. Run evaluation:
+```bash
+# evaluate spider
+sh sh/eval_spider.sh
+# evaluate bird
+sh sh/eval_bird.sh
+```
+
+## Thanks for
+
+We thank [OmniSQL](https://github.com/GIST-IRR/OmniSQL) and follow their evaluation code and database information retrieval code. We have adapted and modified their evaluation scripts for our project.

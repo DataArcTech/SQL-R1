@@ -1,0 +1,917 @@
+2l1c:
+- '{line1} and {line2} are tangents to a circle centered at {p7} at point {p0} and
+  {p1} respectively. The circle centered at {p7} touches {_circle1} at {p3}'
+3peq:
+- '{line1} {line2} and {line3} are sides of {triangle}. {line4} intersects {line1}
+  at {p1}, {line2} at {p2} and {line3} at {p0} such that {p0}{p1} is equal to {p1}{p2}'
+- '{line1} {line2} and {line3} are sides of {triangle}. {line4} intersects {line1}
+  at {p1}, {line2} at {p2} and {line3} at {p0} such that {p0}{p1} is congruent to
+  {p1}{p2}'
+- '{line1} {line2} and {line3} are sides of {triangle}. {line4} intersects {line1}
+  at {p1}, {line2} at {p2} and {line3} at {p0} such that {p0}{p1} is equivalent to
+  {p1}{p2}'
+angle_bisector:
+- '{point} is the bisector of {angle_full}'
+- '{point} is a bisector of {angle_full}'
+- '{point} is the angle bisector of {angle_full}'
+- '{point} is a angle bisector of {angle_full}'
+- '{point} bisects {angle_full}'
+- '{point} bisects angle1'
+- '{point} bisects angle2'
+- angle1 are bisected by {point}
+- angle2 are bisected by {point}
+- '{point} is on the bisector of angle1'
+- '{point} is on the bisector of angle2'
+- '{point} is on a bisector of angle1'
+- '{point} is on a bisector of angle2'
+- '{point} is on the angle bisector of angle1'
+- '{point} is on the angle bisector of angle2'
+- '{point} is on a angle bisector of angle1'
+- '{point} is on a angle bisector of angle2'
+- '{point} is the bisector such that angle1'
+- '{point} is the bisector such that angle2'
+- '{point} is a bisector such that angle1'
+- '{point} is a bisector such that angle2'
+- '{point} is the angle bisector such that angle1'
+- '{point} is the angle bisector such that angle2'
+- '{point} is a angle bisector such that angle1'
+- '{point} is a angle bisector such that angle2'
+angle_mirror:
+- '{point} is reflected across {line}'
+- '{point} is the mirror image of {point_mirror} across {line}'
+- '{line} is the bisector of {angle_full}'
+- '{point} is a point such that angle1'
+- '{point} is a point such that angle2'
+cc_tangent:
+- '{line1} and {line2} are common tangents to {_circle} and {_circle2} at points {p0},
+  {p1} and {p2}, {p3} respectively.'
+cc_tangent0:
+- '{line1} is a tangent to the {_circle} at point {p0} and {_circle2} at point {p1}.'
+- '{line1} is a common tangent to the {_circle} and {_circle2} at points {p0} and
+  {p1} respectively.'
+centroid:
+- '{point} is the centroid of points'
+- '{point} is located at the centroid of points'
+- '{point} is at the centroid of points'
+- '{point} is the centroid of triangle'
+- '{point} is located at the centroid of triangle'
+- '{point} is at the centroid of triangle'
+- '{triangle} has centroid {point}'
+- the centroid of {triangle} is {point}
+- the centroid of {triangle} is located at {point}
+- the centroid of {triangle} is at {point}
+- '{point} is the intersection of the medians of {triangle}'
+- '{point} is located at the intersection of the medians of {triangle}'
+- '{point} is at the intersection of the medians of {triangle}'
+- '{point} is the concurrence of the medians of {triangle}'
+- '{point} is located at the concurrence of the medians of {triangle}'
+- '{point} is at the concurrence of the medians of {triangle}'
+- '{point} is the meeting point of the medians of {triangle}'
+- '{point} is located at the meeting point of the medians of {triangle}'
+- '{point} is at the meeting point of the medians of {triangle}'
+- '{point} is the point of intersection of the medians of {triangle}'
+- '{point} is located at the point of intersection of the medians of {triangle}'
+- '{point} is at the point of intersection of the medians of {triangle}'
+- '{point} is the point of concurrence of the medians of {triangle}'
+- '{point} is located at the point of concurrence of the medians of {triangle}'
+- '{point} is at the point of concurrence of the medians of {triangle}'
+- '{point} is the point of meeting point of the medians of {triangle}'
+- '{point} is located at the point of meeting point of the medians of {triangle}'
+- '{point} is at the point of meeting point of the medians of {triangle}'
+circle:
+- '{point} is the center of the circle that passes through p1'
+- '{point} is the center of the circle passing through p1'
+- '{point} is the center of the circle that passes through p2'
+- '{point} is the center of the circle passing through p2'
+- '{point} is the center of the circle that passes through p3'
+- '{point} is the center of the circle passing through p3'
+- the center of the circle that passes through p1 is {point}
+- the center of the circle passing through p1 is {point}
+- the center of the circle that passes through p2 is {point}
+- the center of the circle passing through p2 is {point}
+- the center of the circle that passes through p3 is {point}
+- the center of the circle passing through p3 is {point}
+- '{point} is the center of {circle}'
+circumcenter:
+- '{point} is the circumcenter of points'
+- '{point} is the circumcenter of triangle'
+e5128:
+- '{line2} is a tangent to the circle centered at {p4} at point {p3}. {line1} is a
+  chord of the circle. It intersects the tangent at point {p1}'
+- '{_circle} has {line2} as a tangent at point {p3}. {line1} is a chord of the circle.
+  It intersects the tangent at point {p1}'
+- '{_circle} has {line1} as a chord. It intersects the tangent line {line2} at point
+  {p1}'
+eq_quadrangle:
+- quadrilateral is a quadrilateral with line1
+- corners is a quadrilateral with line1
+- quadrilateral is a quadrilateral such that line1
+- corners is a quadrilateral such that line1
+- quadrilateral is a quadrilateral where line1
+- corners is a quadrilateral where line1
+- quadrilateral is a quadrilateral with line2
+- corners is a quadrilateral with line2
+- quadrilateral is a quadrilateral such that line2
+- corners is a quadrilateral such that line2
+- quadrilateral is a quadrilateral where line2
+- corners is a quadrilateral where line2
+- p0 forms a quadrilateral with line1
+- p0 forms a quadrilateral such that line1
+- p0 forms a quadrilateral where line1
+- p0 forms a quadrilateral with line2
+- p0 forms a quadrilateral such that line2
+- p0 forms a quadrilateral where line2
+- p1 forms a quadrilateral with line1
+- p1 forms a quadrilateral such that line1
+- p1 forms a quadrilateral where line1
+- p1 forms a quadrilateral with line2
+- p1 forms a quadrilateral such that line2
+- p1 forms a quadrilateral where line2
+- p2 forms a quadrilateral with line1
+- p2 forms a quadrilateral such that line1
+- p2 forms a quadrilateral where line1
+- p2 forms a quadrilateral with line2
+- p2 forms a quadrilateral such that line2
+- p2 forms a quadrilateral where line2
+- p3 forms a quadrilateral with line1
+- p3 forms a quadrilateral such that line1
+- p3 forms a quadrilateral where line1
+- p3 forms a quadrilateral with line2
+- p3 forms a quadrilateral such that line2
+- p3 forms a quadrilateral where line2
+eq_trapezoid:
+- trapezoid is a trapezoid with line1
+- corners is a trapezoid with line1
+- trapezoid is a trapezoid such that line1
+- corners is a trapezoid such that line1
+- trapezoid is a trapezoid where line1
+- corners is a trapezoid where line1
+- trapezoid is a trapezoid with line2
+- corners is a trapezoid with line2
+- trapezoid is a trapezoid such that line2
+- corners is a trapezoid such that line2
+- trapezoid is a trapezoid where line2
+- corners is a trapezoid where line2
+- p0 forms a trapezoid with line1
+- p0 forms a trapezoid such that line1
+- p0 forms a trapezoid where line1
+- p0 forms a trapezoid with line2
+- p0 forms a trapezoid such that line2
+- p0 forms a trapezoid where line2
+- p1 forms a trapezoid with line1
+- p1 forms a trapezoid such that line1
+- p1 forms a trapezoid where line1
+- p1 forms a trapezoid with line2
+- p1 forms a trapezoid such that line2
+- p1 forms a trapezoid where line2
+- p2 forms a trapezoid with line1
+- p2 forms a trapezoid such that line1
+- p2 forms a trapezoid where line1
+- p2 forms a trapezoid with line2
+- p2 forms a trapezoid such that line2
+- p2 forms a trapezoid where line2
+- p3 forms a trapezoid with line1
+- p3 forms a trapezoid such that line1
+- p3 forms a trapezoid where line1
+- p3 forms a trapezoid with line2
+- p3 forms a trapezoid such that line2
+- p3 forms a trapezoid where line2
+eq_triangle:
+- triangle is equilateral
+- triangle is an equilateral
+- triangle is an equilateral triangle
+- points is equilateral
+- points is an equilateral
+- points is an equilateral triangle
+- p0 forms an equilateral triangle
+- p1 forms an equilateral triangle
+- p2 forms an equilateral triangle
+- for {triangle}, all angles are equal
+- for {triangle}, all angles are congruent
+- for {triangle}, all angles are equivalent
+- for {triangle}, each of the angles are equal
+- for {triangle}, each of the angles are congruent
+- for {triangle}, each of the angles are equivalent
+- for {triangle}, the angles are equal
+- for {triangle}, the angles are congruent
+- for {triangle}, the angles are equivalent
+- in {triangle}, all angles are equal
+- in {triangle}, all angles are congruent
+- in {triangle}, all angles are equivalent
+- in {triangle}, each of the angles are equal
+- in {triangle}, each of the angles are congruent
+- in {triangle}, each of the angles are equivalent
+- in {triangle}, the angles are equal
+- in {triangle}, the angles are congruent
+- in {triangle}, the angles are equivalent
+- for {triangle}, all sides are equal
+- for {triangle}, all sides are congruent
+- for {triangle}, all sides are equivalent
+- for {triangle}, each of the sides are equal
+- for {triangle}, each of the sides are congruent
+- for {triangle}, each of the sides are equivalent
+- for {triangle}, the sides are equal
+- for {triangle}, the sides are congruent
+- for {triangle}, the sides are equivalent
+- in {triangle}, all sides are equal
+- in {triangle}, all sides are congruent
+- in {triangle}, all sides are equivalent
+- in {triangle}, each of the sides are equal
+- in {triangle}, each of the sides are congruent
+- in {triangle}, each of the sides are equivalent
+- in {triangle}, the sides are equal
+- in {triangle}, the sides are congruent
+- in {triangle}, the sides are equivalent
+- all angles of {triangle} are equal
+- all angles of {triangle} are congruent
+- all angles of {triangle} are equivalent
+- each of the angles of {triangle} are equal
+- each of the angles of {triangle} are congruent
+- each of the angles of {triangle} are equivalent
+- the angles of {triangle} are equal
+- the angles of {triangle} are congruent
+- the angles of {triangle} are equivalent
+- all sides of {triangle} are equal
+- all sides of {triangle} are congruent
+- all sides of {triangle} are equivalent
+- each of the sides of {triangle} are equal
+- each of the sides of {triangle} are congruent
+- each of the sides of {triangle} are equivalent
+- the sides of {triangle} are equal
+- the sides of {triangle} are congruent
+- the sides of {triangle} are equivalent
+- for {triangle}, line1
+- in {triangle}, line1
+- for {triangle}, line2
+- in {triangle}, line2
+- for {triangle}, line3
+- in {triangle}, line3
+- line1 for {triangle}
+- line1 in {triangle}
+- line2 for {triangle}
+- line2 in {triangle}
+- line3 for {triangle}
+- line3 in {triangle}
+eqangle2:
+- '{point} is a point such that angle1'
+- '{point} is a point where angle1'
+- '{point} is a point such that angle2'
+- '{point} is a point where angle2'
+eqangle3:
+- '{angle1} is equal to {angle2}'
+- '{angle1} is congruent to {angle2}'
+- '{angle1} is equivalent to {angle2}'
+- '{angle1} is identical to {angle2}'
+- '{angle1} equals {angle2}'
+eqdia_quadrangle:
+- for {quadrilateral}, line1
+- for {quadrilateral}, line2
+- in {quadrilateral}, line1
+- in {quadrilateral}, line2
+- quadrilateral is a quadrilateral such that line1
+- corners is a quadrilateral such that line1
+- quadrilateral is a quadrilateral where line1
+- corners is a quadrilateral where line1
+- quadrilateral is a quadrilateral such that line2
+- corners is a quadrilateral such that line2
+- quadrilateral is a quadrilateral where line2
+- corners is a quadrilateral where line2
+- p0 forms a quadrilateral such that line1
+- p0 forms a quadrilateral where line1
+- p0 forms a quadrilateral such that line2
+- p0 forms a quadrilateral where line2
+- p1 forms a quadrilateral such that line1
+- p1 forms a quadrilateral where line1
+- p1 forms a quadrilateral such that line2
+- p1 forms a quadrilateral where line2
+- p2 forms a quadrilateral such that line1
+- p2 forms a quadrilateral where line1
+- p2 forms a quadrilateral such that line2
+- p2 forms a quadrilateral where line2
+- p3 forms a quadrilateral such that line1
+- p3 forms a quadrilateral where line1
+- p3 forms a quadrilateral such that line2
+- p3 forms a quadrilateral where line2
+- line1 are equal in {quadrilateral}
+- line2 are equal in {quadrilateral}
+- line1 are congruent in {quadrilateral}
+- line2 are congruent in {quadrilateral}
+- line1 are equivalent in {quadrilateral}
+- line2 are equivalent in {quadrilateral}
+- the diagonals of {quadrilateral} are equal
+- the diagonals of {quadrilateral} are congruent
+- the diagonals of {quadrilateral} are equivalent
+- '{quadrilateral} has equal diagonals'
+- '{quadrilateral} has congruent diagonals'
+- '{quadrilateral} has equivalent diagonals'
+eqdistance:
+- '{point} is a point such that line1'
+- '{point} is a point where line1'
+- '{point} is a point such that line2'
+- '{point} is a point where line2'
+- line1 are equal
+- line1 are congruent
+- line1 are equivalent
+- line2 are equal
+- line2 are congruent
+- line2 are equivalent
+- line1
+- line2
+excenter:
+- '{point} is the excenter of points'
+- '{point} is located at the excenter of points'
+- '{point} is at the excenter of points'
+- '{point} is the excenter of triangle'
+- '{point} is located at the excenter of triangle'
+- '{point} is at the excenter of triangle'
+- '{triangle} has excenter {point}'
+- the excenter of {triangle} is {point}
+- the excenter of {triangle} is located at {point}
+- the excenter of {triangle} is at {point}
+- '{point} is the intersection of the exterior angle bisectors of {triangle}'
+- '{point} is located at the intersection of the exterior angle bisectors of {triangle}'
+- '{point} is at the intersection of the exterior angle bisectors of {triangle}'
+- '{point} is the concurrence of the exterior angle bisectors of {triangle}'
+- '{point} is located at the concurrence of the exterior angle bisectors of {triangle}'
+- '{point} is at the concurrence of the exterior angle bisectors of {triangle}'
+- '{point} is the meeting point of the exterior angle bisectors of {triangle}'
+- '{point} is located at the meeting point of the exterior angle bisectors of {triangle}'
+- '{point} is at the meeting point of the exterior angle bisectors of {triangle}'
+- '{point} is the point of intersection of the exterior angle bisectors of {triangle}'
+- '{point} is located at the point of intersection of the exterior angle bisectors
+  of {triangle}'
+- '{point} is at the point of intersection of the exterior angle bisectors of {triangle}'
+- '{point} is the point of concurrence of the exterior angle bisectors of {triangle}'
+- '{point} is located at the point of concurrence of the exterior angle bisectors
+  of {triangle}'
+- '{point} is at the point of concurrence of the exterior angle bisectors of {triangle}'
+- '{point} is the point of meeting point of the exterior angle bisectors of {triangle}'
+- '{point} is located at the point of meeting point of the exterior angle bisectors
+  of {triangle}'
+- '{point} is at the point of meeting point of the exterior angle bisectors of {triangle}'
+excenter2:
+- '{point} is the excenter of points with touchpoints p0'
+- '{point} is the excenter of points with touchpoints p1'
+- '{point} is the excenter of points with touchpoints p2'
+- '{point} is located at the excenter of points with touchpoints p0'
+- '{point} is located at the excenter of points with touchpoints p1'
+- '{point} is located at the excenter of points with touchpoints p2'
+- '{point} is at the excenter of points with touchpoints p0'
+- '{point} is at the excenter of points with touchpoints p1'
+- '{point} is at the excenter of points with touchpoints p2'
+- '{point} is the excenter of triangle with touchpoints p0'
+- '{point} is the excenter of triangle with touchpoints p1'
+- '{point} is the excenter of triangle with touchpoints p2'
+- '{point} is located at the excenter of triangle with touchpoints p0'
+- '{point} is located at the excenter of triangle with touchpoints p1'
+- '{point} is located at the excenter of triangle with touchpoints p2'
+- '{point} is at the excenter of triangle with touchpoints p0'
+- '{point} is at the excenter of triangle with touchpoints p1'
+- '{point} is at the excenter of triangle with touchpoints p2'
+- '{triangle} has excenter {point} and touchpoints p0'
+- '{triangle} has excenter {point} and touchpoints p1'
+- '{triangle} has excenter {point} and touchpoints p2'
+foot:
+- '{point} is the foot of {point_foot} on {line}'
+- '{point} is on {line} and {line_perp} is perpendicular to {line}'
+- the foot of {point_foot} on {line} is {point}
+- '{point_foot}{point} perpendicular to {point}{line}'
+free:
+- '{point} is a point'
+ieq_triangle:
+- '{triangle} is an equilateral triangle'
+incenter:
+- '{point} is the incenter of points'
+- '{point} is located at the incenter of points'
+- '{point} is at the incenter of points'
+- '{point} is the incenter of triangle'
+- '{point} is located at the incenter of triangle'
+- '{point} is at the incenter of triangle'
+- '{triangle} has incenter {point}'
+- the incenter of {triangle} is {point}
+- the incenter of {triangle} is located at {point}
+- the incenter of {triangle} is at {point}
+- '{point} is the intersection of the angle bisectors of {triangle}'
+- '{point} is located at the intersection of the angle bisectors of {triangle}'
+- '{point} is at the intersection of the angle bisectors of {triangle}'
+- '{point} is the concurrence of the angle bisectors of {triangle}'
+- '{point} is located at the concurrence of the angle bisectors of {triangle}'
+- '{point} is at the concurrence of the angle bisectors of {triangle}'
+- '{point} is the meeting point of the angle bisectors of {triangle}'
+- '{point} is located at the meeting point of the angle bisectors of {triangle}'
+- '{point} is at the meeting point of the angle bisectors of {triangle}'
+- '{point} is the point of intersection of the angle bisectors of {triangle}'
+- '{point} is located at the point of intersection of the angle bisectors of {triangle}'
+- '{point} is at the point of intersection of the angle bisectors of {triangle}'
+- '{point} is the point of concurrence of the angle bisectors of {triangle}'
+- '{point} is located at the point of concurrence of the angle bisectors of {triangle}'
+- '{point} is at the point of concurrence of the angle bisectors of {triangle}'
+- '{point} is the point of meeting point of the angle bisectors of {triangle}'
+- '{point} is located at the point of meeting point of the angle bisectors of {triangle}'
+- '{point} is at the point of meeting point of the angle bisectors of {triangle}'
+incenter2:
+- '{point} is the incenter of points with touchpoints p0'
+- '{point} is the incenter of points with touchpoints p1'
+- '{point} is the incenter of points with touchpoints p2'
+- '{point} is located at the incenter of points with touchpoints p0'
+- '{point} is located at the incenter of points with touchpoints p1'
+- '{point} is located at the incenter of points with touchpoints p2'
+- '{point} is at the incenter of points with touchpoints p0'
+- '{point} is at the incenter of points with touchpoints p1'
+- '{point} is at the incenter of points with touchpoints p2'
+- '{point} is the incenter of triangle with touchpoints p0'
+- '{point} is the incenter of triangle with touchpoints p1'
+- '{point} is the incenter of triangle with touchpoints p2'
+- '{point} is located at the incenter of triangle with touchpoints p0'
+- '{point} is located at the incenter of triangle with touchpoints p1'
+- '{point} is located at the incenter of triangle with touchpoints p2'
+- '{point} is at the incenter of triangle with touchpoints p0'
+- '{point} is at the incenter of triangle with touchpoints p1'
+- '{point} is at the incenter of triangle with touchpoints p2'
+- '{triangle} has incenter {point} and touchpoints p0'
+- '{triangle} has incenter {point} and touchpoints p1'
+- '{triangle} has incenter {point} and touchpoints p2'
+intersection_cc:
+- '{_circle1} intersects {_circle2} at p0'
+- '{_circle1} intersects {_circle2} at p3'
+- '{_circle1} intersects {_circle2} at the points p0'
+- '{_circle1} intersects {_circle2} at the points p3'
+- '{_circle1} meets {_circle2} at p0'
+- '{_circle1} meets {_circle2} at p3'
+- '{_circle1} meets {_circle2} at the points p0'
+- '{_circle1} meets {_circle2} at the points p3'
+intersection_lc:
+- '{line} intersects {_circle1} at p0'
+- '{line} intersects {_circle1} at p3'
+- '{line} intersects {_circle1} at the points p0'
+- '{line} intersects {_circle1} at the points p3'
+- '{line} meets {_circle1} at p0'
+- '{line} meets {_circle1} at p3'
+- '{line} meets {_circle1} at the points p0'
+- '{line} meets {_circle1} at the points p3'
+intersection_ll:
+- '{line1} intersects {line2} at {point}'
+- '{line1} intersects {line2} at the point {point}'
+- '{line1} meets {line2} at {point}'
+- '{line1} meets {line2} at the point {point}'
+intersection_lp:
+- Parallel {line2} through {point1} intersects {line1} at {point2}
+- Parallel {line2} through {point1} meets {line1} at {point2}
+- Parallel {line2} through {point1} crosses {line1} at {point2}
+intersection_lt:
+- '{line1} not perpendicular to {line2}. {line3} perpendicular to {line2} intersects
+  {line1} at {point}'
+- '{line1} not perpendicular to {line2}. {line3} perpendicular to {line2} intersects
+  {line1} at the point {point}'
+- '{line1} not at right angle to {line2}. {line3} at right angle to {line2} intersects
+  {line1} at {point}'
+- '{line1} not at right angle to {line2}. {line3} at right angle to {line2} intersects
+  {line1} at the point {point}'
+- '{line1} not perpendicular to {line2}. {line3} perpendicular to {line2} meets {line1}
+  at {point}'
+- '{line1} not perpendicular to {line2}. {line3} perpendicular to {line2} meets {line1}
+  at the point {point}'
+- '{line1} not at right angle to {line2}. {line3} at right angle to {line2} meets
+  {line1} at {point}'
+- '{line1} not at right angle to {line2}. {line3} at right angle to {line2} meets
+  {line1} at the point {point}'
+- '{line1} not perpendicular to {line2}. {line3} perpendicular to {line2} crosses
+  {line1} at {point}'
+- '{line1} not perpendicular to {line2}. {line3} perpendicular to {line2} crosses
+  {line1} at the point {point}'
+- '{line1} not at right angle to {line2}. {line3} at right angle to {line2} crosses
+  {line1} at {point}'
+- '{line1} not at right angle to {line2}. {line3} at right angle to {line2} crosses
+  {line1} at the point {point}'
+intersection_pp:
+- '{line1} and {line2} are parallel. {line3} and {line4} are parallel. {line1} intersects
+  {line3} at {point}'
+- '{line1} and {line2} are parallel. {line3} and {line4} are parallel. {line1} intersects
+  {line3} at the point {point}'
+- '{line1} and {line2} are parallel. {line3} and {line4} are parallel. {line1} meets
+  {line3} at {point}'
+- '{line1} and {line2} are parallel. {line3} and {line4} are parallel. {line1} meets
+  {line3} at the point {point}'
+- '{line1} and {line2} are parallel. {line3} and {line4} are parallel. {line1} crosses
+  {line3} at {point}'
+- '{line1} and {line2} are parallel. {line3} and {line4} are parallel. {line1} crosses
+  {line3} at the point {point}'
+- '{line1} || {line2}. {line3} || {line4}. {line1} intersects {line3} at {point}'
+- '{line1} || {line2}. {line3} || {line4}. {line1} intersects {line3} at the point
+  {point}'
+- '{line1} || {line2}. {line3} || {line4}. {line1} meets {line3} at {point}'
+- '{line1} || {line2}. {line3} || {line4}. {line1} meets {line3} at the point {point}'
+- '{line1} || {line2}. {line3} || {line4}. {line1} crosses {line3} at {point}'
+- '{line1} || {line2}. {line3} || {line4}. {line1} crosses {line3} at the point {point}'
+intersection_tt:
+- '{line1} and {line2} are parallel. {line3} perpendicular to {line1}. {line4} perpendicular
+  to {line2}. {line3} intersects {line4} at {point}'
+- '{line1} and {line2} are parallel. {line3} perpendicular to {line1}. {line4} perpendicular
+  to {line2}. {line3} intersects {line4} at the point {point}'
+- '{line1} and {line2} are parallel. {line3} at right angle to {line1}. {line4} at
+  right angle to {line2}. {line3} intersects {line4} at {point}'
+- '{line1} and {line2} are parallel. {line3} at right angle to {line1}. {line4} at
+  right angle to {line2}. {line3} intersects {line4} at the point {point}'
+- '{line1} and {line2} are parallel. {line3} perpendicular to {line1}. {line4} perpendicular
+  to {line2}. {line3} meets {line4} at {point}'
+- '{line1} and {line2} are parallel. {line3} perpendicular to {line1}. {line4} perpendicular
+  to {line2}. {line3} meets {line4} at the point {point}'
+- '{line1} and {line2} are parallel. {line3} at right angle to {line1}. {line4} at
+  right angle to {line2}. {line3} meets {line4} at {point}'
+- '{line1} and {line2} are parallel. {line3} at right angle to {line1}. {line4} at
+  right angle to {line2}. {line3} meets {line4} at the point {point}'
+- '{line1} and {line2} are parallel. {line3} perpendicular to {line1}. {line4} perpendicular
+  to {line2}. {line3} crosses {line4} at {point}'
+- '{line1} and {line2} are parallel. {line3} perpendicular to {line1}. {line4} perpendicular
+  to {line2}. {line3} crosses {line4} at the point {point}'
+- '{line1} and {line2} are parallel. {line3} at right angle to {line1}. {line4} at
+  right angle to {line2}. {line3} crosses {line4} at {point}'
+- '{line1} and {line2} are parallel. {line3} at right angle to {line1}. {line4} at
+  right angle to {line2}. {line3} crosses {line4} at the point {point}'
+- '{line1} || {line2}. {line3} perpendicular to {line1}. {line4} perpendicular to
+  {line2}. {line3} intersects {line4} at {point}'
+- '{line1} || {line2}. {line3} perpendicular to {line1}. {line4} perpendicular to
+  {line2}. {line3} intersects {line4} at the point {point}'
+- '{line1} || {line2}. {line3} at right angle to {line1}. {line4} at right angle to
+  {line2}. {line3} intersects {line4} at {point}'
+- '{line1} || {line2}. {line3} at right angle to {line1}. {line4} at right angle to
+  {line2}. {line3} intersects {line4} at the point {point}'
+- '{line1} || {line2}. {line3} perpendicular to {line1}. {line4} perpendicular to
+  {line2}. {line3} meets {line4} at {point}'
+- '{line1} || {line2}. {line3} perpendicular to {line1}. {line4} perpendicular to
+  {line2}. {line3} meets {line4} at the point {point}'
+- '{line1} || {line2}. {line3} at right angle to {line1}. {line4} at right angle to
+  {line2}. {line3} meets {line4} at {point}'
+- '{line1} || {line2}. {line3} at right angle to {line1}. {line4} at right angle to
+  {line2}. {line3} meets {line4} at the point {point}'
+- '{line1} || {line2}. {line3} perpendicular to {line1}. {line4} perpendicular to
+  {line2}. {line3} crosses {line4} at {point}'
+- '{line1} || {line2}. {line3} perpendicular to {line1}. {line4} perpendicular to
+  {line2}. {line3} crosses {line4} at the point {point}'
+- '{line1} || {line2}. {line3} at right angle to {line1}. {line4} at right angle to
+  {line2}. {line3} crosses {line4} at {point}'
+- '{line1} || {line2}. {line3} at right angle to {line1}. {line4} at right angle to
+  {line2}. {line3} crosses {line4} at the point {point}'
+- '{line1} and {line2} are parallel. {line3} perpendicular to {line1}. {line4} and
+  {line3} are perpendicular to {line2} and {line1} respectively. They intersect at
+  {point}'
+- '{line1} and {line2} are parallel. {line3} at right angle to {line1}. {line4} and
+  {line3} are at right angle to {line2} and {line1} respectively. They intersect at
+  {point}'
+- '{line1} || {line2}. {line3} perpendicular to {line1}. {line4} and {line3} are perpendicular
+  to {line2} and {line1} respectively. They intersect at {point}'
+- '{line1} || {line2}. {line3} at right angle to {line1}. {line4} and {line3} are
+  at right angle to {line2} and {line1} respectively. They intersect at {point}'
+iso_triangle:
+- '{triangle} is an isosceles triangle with {line2} equal to {line3}'
+- '{triangle} is an isosceles triangle with {line2} congruent to {line3}'
+- '{triangle} is an isosceles triangle with {line2} equivalent to {line3}'
+- '{triangle} is an isosceles triangle with {line2} = {line3}'
+- '{triangle} is an isosceles triangle with {line1} as base'
+- '{triangle} is an isosceles triangle with {angle1} equal to {angle2}'
+- '{triangle} is an isosceles triangle with {angle1} congruent to {angle2}'
+- '{triangle} is an isosceles triangle with {angle1} equivalent to {angle2}'
+- '{triangle} is an isosceles triangle with {angle1} = {angle2}'
+isquare:
+- '{p0}{p1}{p2}{p3} is a square'
+- p2 are constructed such that {p0}{p1}{p2}{p3} forms a square
+- p3 are constructed such that {p0}{p1}{p2}{p3} forms a square
+- given {line1}, construct p2 such that {p0}{p1}{p2}{p3} is a square
+- given {line1}, construct p3 such that {p0}{p1}{p2}{p3} is a square
+lc_tangent:
+- '{line} is tangent to {_circle} at {point}'
+- '{line} is tangent to {_circle} at the point {point}'
+- '{line} is touching to {_circle} at {point}'
+- '{line} is touching to {_circle} at the point {point}'
+midpoint:
+- '{point} is the midpoint of {line3}'
+- '{point} is the the midpoint of {line3}'
+- '{point} is a point such that length of p0 equal length of p1'
+- '{point} is a point such that length of p0 congruent length of p1'
+- '{point} is a point such that length of p0 equivalent length of p1'
+- '{point} is a point where length of p0 equal length of p1'
+- '{point} is a point where length of p0 congruent length of p1'
+- '{point} is a point where length of p0 equivalent length of p1'
+- '{point} is a point such that the length of p0 equal the length of p1'
+- '{point} is a point such that the length of p0 congruent the length of p1'
+- '{point} is a point such that the length of p0 equivalent the length of p1'
+- '{point} is a point where the length of p0 equal the length of p1'
+- '{point} is a point where the length of p0 congruent the length of p1'
+- '{point} is a point where the length of p0 equivalent the length of p1'
+- '{point} is a point such that distance between p0 equal distance between p1'
+- '{point} is a point such that distance between p0 congruent distance between p1'
+- '{point} is a point such that distance between p0 equivalent distance between p1'
+- '{point} is a point where distance between p0 equal distance between p1'
+- '{point} is a point where distance between p0 congruent distance between p1'
+- '{point} is a point where distance between p0 equivalent distance between p1'
+- '{point} is a point such that the distance between p0 equal the distance between
+  p1'
+- '{point} is a point such that the distance between p0 congruent the distance between
+  p1'
+- '{point} is a point such that the distance between p0 equivalent the distance between
+  p1'
+- '{point} is a point where the distance between p0 equal the distance between p1'
+- '{point} is a point where the distance between p0 congruent the distance between
+  p1'
+- '{point} is a point where the distance between p0 equivalent the distance between
+  p1'
+- '{point} is a point such that length of p0 equal length of p0'
+- '{point} is a point such that length of p0 congruent length of p0'
+- '{point} is a point such that length of p0 equivalent length of p0'
+- '{point} is a point where length of p0 equal length of p0'
+- '{point} is a point where length of p0 congruent length of p0'
+- '{point} is a point where length of p0 equivalent length of p0'
+- '{point} is a point such that the length of p0 equal the length of p0'
+- '{point} is a point such that the length of p0 congruent the length of p0'
+- '{point} is a point such that the length of p0 equivalent the length of p0'
+- '{point} is a point where the length of p0 equal the length of p0'
+- '{point} is a point where the length of p0 congruent the length of p0'
+- '{point} is a point where the length of p0 equivalent the length of p0'
+- '{point} is a point such that distance between p0 equal distance between p0'
+- '{point} is a point such that distance between p0 congruent distance between p0'
+- '{point} is a point such that distance between p0 equivalent distance between p0'
+- '{point} is a point where distance between p0 equal distance between p0'
+- '{point} is a point where distance between p0 congruent distance between p0'
+- '{point} is a point where distance between p0 equivalent distance between p0'
+- '{point} is a point such that the distance between p0 equal the distance between
+  p0'
+- '{point} is a point such that the distance between p0 congruent the distance between
+  p0'
+- '{point} is a point such that the distance between p0 equivalent the distance between
+  p0'
+- '{point} is a point where the distance between p0 equal the distance between p0'
+- '{point} is a point where the distance between p0 congruent the distance between
+  p0'
+- '{point} is a point where the distance between p0 equivalent the distance between
+  p0'
+- '{point} is a point such that length of p2 equal length of p1'
+- '{point} is a point such that length of p2 congruent length of p1'
+- '{point} is a point such that length of p2 equivalent length of p1'
+- '{point} is a point where length of p2 equal length of p1'
+- '{point} is a point where length of p2 congruent length of p1'
+- '{point} is a point where length of p2 equivalent length of p1'
+- '{point} is a point such that the length of p2 equal the length of p1'
+- '{point} is a point such that the length of p2 congruent the length of p1'
+- '{point} is a point such that the length of p2 equivalent the length of p1'
+- '{point} is a point where the length of p2 equal the length of p1'
+- '{point} is a point where the length of p2 congruent the length of p1'
+- '{point} is a point where the length of p2 equivalent the length of p1'
+- '{point} is a point such that distance between p2 equal distance between p1'
+- '{point} is a point such that distance between p2 congruent distance between p1'
+- '{point} is a point such that distance between p2 equivalent distance between p1'
+- '{point} is a point where distance between p2 equal distance between p1'
+- '{point} is a point where distance between p2 congruent distance between p1'
+- '{point} is a point where distance between p2 equivalent distance between p1'
+- '{point} is a point such that the distance between p2 equal the distance between
+  p1'
+- '{point} is a point such that the distance between p2 congruent the distance between
+  p1'
+- '{point} is a point such that the distance between p2 equivalent the distance between
+  p1'
+- '{point} is a point where the distance between p2 equal the distance between p1'
+- '{point} is a point where the distance between p2 congruent the distance between
+  p1'
+- '{point} is a point where the distance between p2 equivalent the distance between
+  p1'
+- '{point} is a point such that length of p2 equal length of p0'
+- '{point} is a point such that length of p2 congruent length of p0'
+- '{point} is a point such that length of p2 equivalent length of p0'
+- '{point} is a point where length of p2 equal length of p0'
+- '{point} is a point where length of p2 congruent length of p0'
+- '{point} is a point where length of p2 equivalent length of p0'
+- '{point} is a point such that the length of p2 equal the length of p0'
+- '{point} is a point such that the length of p2 congruent the length of p0'
+- '{point} is a point such that the length of p2 equivalent the length of p0'
+- '{point} is a point where the length of p2 equal the length of p0'
+- '{point} is a point where the length of p2 congruent the length of p0'
+- '{point} is a point where the length of p2 equivalent the length of p0'
+- '{point} is a point such that distance between p2 equal distance between p0'
+- '{point} is a point such that distance between p2 congruent distance between p0'
+- '{point} is a point such that distance between p2 equivalent distance between p0'
+- '{point} is a point where distance between p2 equal distance between p0'
+- '{point} is a point where distance between p2 congruent distance between p0'
+- '{point} is a point where distance between p2 equivalent distance between p0'
+- '{point} is a point such that the distance between p2 equal the distance between
+  p0'
+- '{point} is a point such that the distance between p2 congruent the distance between
+  p0'
+- '{point} is a point such that the distance between p2 equivalent the distance between
+  p0'
+- '{point} is a point where the distance between p2 equal the distance between p0'
+- '{point} is a point where the distance between p2 congruent the distance between
+  p0'
+- '{point} is a point where the distance between p2 equivalent the distance between
+  p0'
+mirror:
+- '{point} is on {line} such that p0 is equal to p1'
+- '{point} is on {line} such that p0 is congruent to p1'
+- '{point} is on {line} such that p0 is equal to p2'
+- '{point} is on {line} such that p0 is congruent to p2'
+- '{point} is on {line} such that p2 is equal to p1'
+- '{point} is on {line} such that p2 is congruent to p1'
+- '{point} is on {line} such that p2 is equal to p2'
+- '{point} is on {line} such that p2 is congruent to p2'
+ninepoints:
+- '{point} is the centre of the nine-point circle of points. the circle intersects
+  the sides {line2}, {line3}, and {line1} at {point_mid1}, {point_mid2}, and {point_mid3}
+  respectively'
+- '{point} is located at the centre of the nine-point circle of points. the circle
+  intersects the sides {line2}, {line3}, and {line1} at {point_mid1}, {point_mid2},
+  and {point_mid3} respectively'
+- '{point} is at the centre of the nine-point circle of points. the circle intersects
+  the sides {line2}, {line3}, and {line1} at {point_mid1}, {point_mid2}, and {point_mid3}
+  respectively'
+- '{point} is the centre of the nine-point circle of triangle. the circle intersects
+  the sides {line2}, {line3}, and {line1} at {point_mid1}, {point_mid2}, and {point_mid3}
+  respectively'
+- '{point} is located at the centre of the nine-point circle of triangle. the circle
+  intersects the sides {line2}, {line3}, and {line1} at {point_mid1}, {point_mid2},
+  and {point_mid3} respectively'
+- '{point} is at the centre of the nine-point circle of triangle. the circle intersects
+  the sides {line2}, {line3}, and {line1} at {point_mid1}, {point_mid2}, and {point_mid3}
+  respectively'
+- '{triangle} has nine-point center {point} and the circle intersects the sides {line2},
+  {line3}, and {line1} at {point_mid1}, {point_mid2}, and {point_mid3} respectively'
+- the nine-point center of {triangle} is {point}. the circle intersects the sides
+  {line2}, {line3}, and {line1} at {point_mid1}, {point_mid2}, and {point_mid3} respectively
+- the nine-point center of {triangle} is located at {point}. the circle intersects
+  the sides {line2}, {line3}, and {line1} at {point_mid1}, {point_mid2}, and {point_mid3}
+  respectively
+- the nine-point center of {triangle} is at {point}. the circle intersects the sides
+  {line2}, {line3}, and {line1} at {point_mid1}, {point_mid2}, and {point_mid3} respectively
+- '{triangle} has nine-point center {point} and the circle intersects the sides {line2},
+  at {point_mid1}, {line3}, at {point_mid2}, and {line1}, at {point_mid3}'
+- the nine-point center of {triangle} is {point}. the circle intersects the sides
+  {line2}, at {point_mid1}, {line3}, at {point_mid2}, and {line1}, at {point_mid3}
+- the nine-point center of {triangle} is located at {point}. the circle intersects
+  the sides {line2}, at {point_mid1}, {line3}, at {point_mid2}, and {line1}, at {point_mid3}
+- the nine-point center of {triangle} is at {point}. the circle intersects the sides
+  {line2}, at {point_mid1}, {line3}, at {point_mid2}, and {line1}, at {point_mid3}
+nsquare:
+- '{p0}, {p1}, {p2} are three consecutive vertices of a square'
+on_aline:
+- '{point} is such that {angle1} is equal to {angle2}'
+- '{point} is such that {angle1} is congruent to {angle2}'
+- '{point} is such that {angle1} is equivalent to {angle2}'
+on_aline2:
+- '{point} is such that {angle1} is equal to {angle2}'
+- '{point} is such that {angle1} is congruent to {angle2}'
+- '{point} is such that {angle1} is equivalent to {angle2}'
+on_bline:
+- '{point} is on perpendicular bisector of {line}'
+on_circle:
+- '{point} is on {_circle}'
+- '{point} is on the circumference of {_circle}'
+- '{point} is on the circle {_circle}'
+on_circum:
+- '{point} is on the circumcircle of {triangle}'
+- '{point} is on the circumferance of the circle that passes through p1'
+- '{point} is on the circumferance of the circle passing through p1'
+- '{point} is on the circumferance of the circle that passes through p2'
+- '{point} is on the circumferance of the circle passing through p2'
+- '{point} is on the circumferance of the circle that passes through p3'
+- '{point} is on the circumferance of the circle passing through p3'
+on_dia:
+- '{point} is on the circle which has {line} as diameter'
+- '{point} is on the circumference of the circle that has {line} as diameter'
+on_line:
+- '{point} is on {line}'
+- '{point} {line} are collinear'
+- '{point} {line} are not collinear'
+- '{point},{point},{point} are collinear'
+- '{point},{point},{point} are not collinear'
+on_opline:
+- '{point} is on the extended line {line}'
+on_pline:
+- '{point} is on a line through {point2} and parallel to {line}'
+on_tline:
+- '{point} is on a line through {point2} and perpendicular to {line}'
+- '{point} is on a line through {point2} and at right angle to {line}'
+orthocenter:
+- '{point} is the orthocenter of points'
+- '{point} is located at the orthocenter of points'
+- '{point} is at the orthocenter of points'
+- '{point} is the orthocenter of triangle'
+- '{point} is located at the orthocenter of triangle'
+- '{point} is at the orthocenter of triangle'
+- '{triangle} has orthocenter {point}'
+- the orthocenter of {triangle} is {point}
+- the orthocenter of {triangle} is located at {point}
+- the orthocenter of {triangle} is at {point}
+- '{point} is the intersection of the altitudes of {triangle}'
+- '{point} is located at the intersection of the altitudes of {triangle}'
+- '{point} is at the intersection of the altitudes of {triangle}'
+- '{point} is the concurrence of the altitudes of {triangle}'
+- '{point} is located at the concurrence of the altitudes of {triangle}'
+- '{point} is at the concurrence of the altitudes of {triangle}'
+- '{point} is the meeting point of the altitudes of {triangle}'
+- '{point} is located at the meeting point of the altitudes of {triangle}'
+- '{point} is at the meeting point of the altitudes of {triangle}'
+- '{point} is the point of intersection of the altitudes of {triangle}'
+- '{point} is located at the point of intersection of the altitudes of {triangle}'
+- '{point} is at the point of intersection of the altitudes of {triangle}'
+- '{point} is the point of concurrence of the altitudes of {triangle}'
+- '{point} is located at the point of concurrence of the altitudes of {triangle}'
+- '{point} is at the point of concurrence of the altitudes of {triangle}'
+- '{point} is the point of meeting point of the altitudes of {triangle}'
+- '{point} is located at the point of meeting point of the altitudes of {triangle}'
+- '{point} is at the point of meeting point of the altitudes of {triangle}'
+parallel:
+- '{line1} and {line2} are parallel'
+- '{line1} and {line2} are parallel. {line3} perpendicular to {line1}. {line4} and
+  {line1} are parallel'
+- '{line1} is parallel to {line2}'
+- '{line1} is parallel with {line2}'
+- '{line1} is parallel to {line2}. {line3} perpendicular to {line1}. {line4} and
+  {line1} are parallel'
+parallelogram:
+- '{p0}{p1}{p2}{p3} is a parallelogram'
+- '{p3} is such that {p0}{p1} || {p2}{p3} and {p0}{p3} || {p1}{p2}'
+- '{p3} is such that {p0}{p1} parallel to {p2}{p3} and {p0}{p3} parallel to {p1}{p2}'
+- '{p3} is such that {p0}{p1} parallel with {p2}{p3} and {p0}{p3} parallel with {p1}{p2}'
+- '{p3} is such that {p0}{p1} is parallel to {p2}{p3} and {p0}{p3} is parallel to
+  {p1}{p2}'
+- '{p0}{p1} is || to {p2}{p3}'
+- '{p0}{p1} is parallel to to {p2}{p3}'
+- '{p0}{p1} is parallel with to {p2}{p3}'
+- '{p0}{p1} is is parallel to to {p2}{p3}'
+pentagon:
+- '{p0}{p1}{p2}{p3}{p4} is a pentagon'
+psquare:
+- '{point}, {p1}, {p2} are three consecutive vertices of a square'
+quadrangle:
+- '{p0}{p1}{p2}{p3} is a quadrangle'
+- '{p0}{p1}{p2}{p3} is a quadrilateral'
+r_trapezoid:
+- '{p0}{p1}{p2}{p3} is a right angle trapezoid, with {p0}{p1} perpendicular to {p0}{p3}'
+- '{p0}{p1}{p2}{p3} is a right angle trapezoid, with {p0}{p1} at right angle to {p0}{p3}'
+- '{p0}{p1}{p2}{p3} is a right angle trapezoid, with {p0}{p1} ⊥ to {p0}{p3}'
+r_triangle:
+- '{p0}{p1}{p2} is a right triangle, with {p0}{p1} perpendicular to {p0}{p2}'
+- '{p0}{p1}{p2} is a right triangle, with {p0}{p1} at right angle to {p0}{p2}'
+- '{p0}{p1}{p2} is a right triangle, with {p0}{p1} ⊥ to {p0}{p2}'
+- '{p0}{p1}{p2} is a right triangle, with the right angle ar {p0}'
+rectangle:
+- '{p0}{p1}{p2}{p3} is a rectangle'
+reflect:
+- '{point} is the reflection of {point1} on {line}'
+- '{point} is the reflection of {point1} over {line}'
+risos:
+- p0 is a right angle isosceles triangle with the right angle at {p0}
+- p1 is a right angle isosceles triangle with the right angle at {p0}
+- p2 is a right angle isosceles triangle with the right angle at {p0}
+s_angle:
+- '{point} is such that ∠{p0}{p1}{p2} is equal to {p3} degrees'
+- '{point} is such that ∠{p0}{p1}{p2} is congruent to {p3} degrees'
+- '{point} is such that ∠{p0}{p1}{p2} is equivalent to {p3} degrees'
+segment:
+- points is a segment of {line}
+shift:
+- '{line2} is the result of shifting {line1}'
+- '{line2} is the shifted version of {line1}'
+square:
+- '{p0}{p1}{p2}{p3} is a square'
+- p2 are constructed such that {p0}{p1}{p2}{p3} forms a square
+- p3 are constructed such that {p0}{p1}{p2}{p3} forms a square
+- given {line1}, construct p2 such that {p0}{p1}{p2}{p3} is a square
+- given {line1}, construct p3 such that {p0}{p1}{p2}{p3} is a square
+tangent:
+- '{line1} and {line2} are the two tangents to {_circle} at point {p0} and {p1} respectively.'
+trapezoid:
+- '{p0}{p1}{p2}{p3} is a trapezoid'
+triangle:
+- '{p0}{p1}{p2} is a {triangle}'
+triangle12:
+- '{p0}{p1}{p2} is a {triangle}, such that p1 is double in length to that of p0'
+- '{p0}{p1}{p2} is a {triangle}, such that p1 is twice in length to that of p0'
+- '{p0}{p1}{p2} is a {triangle}, such that p1 is 1:2 in length to that of p0'
+- '{p0}{p1}{p2} is a {triangle}, such that p2 is double in length to that of p0'
+- '{p0}{p1}{p2} is a {triangle}, such that p2 is twice in length to that of p0'
+- '{p0}{p1}{p2} is a {triangle}, such that p2 is 1:2 in length to that of p0'
+- '{p0}{p1}{p2} is a {triangle}, such that p1 is double in length to that of p1'
+- '{p0}{p1}{p2} is a {triangle}, such that p1 is twice in length to that of p1'
+- '{p0}{p1}{p2} is a {triangle}, such that p1 is 1:2 in length to that of p1'
+- '{p0}{p1}{p2} is a {triangle}, such that p2 is double in length to that of p1'
+- '{p0}{p1}{p2} is a {triangle}, such that p2 is twice in length to that of p1'
+- '{p0}{p1}{p2} is a {triangle}, such that p2 is 1:2 in length to that of p1'
+- '{p0}{p1}{p2} is a {triangle}, such that p0 is half in length to that of p1'
+- '{p0}{p1}{p2} is a {triangle}, such that p0 is 2:1 in length to that of p1'
+- '{p0}{p1}{p2} is a {triangle}, such that p0 is half in length to that of p2'
+- '{p0}{p1}{p2} is a {triangle}, such that p0 is 2:1 in length to that of p2'
+- '{p0}{p1}{p2} is a {triangle}, such that p1 is half in length to that of p1'
+- '{p0}{p1}{p2} is a {triangle}, such that p1 is 2:1 in length to that of p1'
+- '{p0}{p1}{p2} is a {triangle}, such that p1 is half in length to that of p2'
+- '{p0}{p1}{p2} is a {triangle}, such that p1 is 2:1 in length to that of p2'
+trisect:
+- '{p0} and {p1} two points on {line1} of {triangle} such that {angle1} is 1/3 of
+  {angle4} and {angle2} is 1/3 of {angle4}'
+- '{p0} and {p1} two points on {line1} of {triangle} such that {angle4} is trisected
+  by {p0}{p4} and {p4}{p1}'
+trisegment:
+- '{line2} is trisected by {p2} and {p3}.'
+- '{p0} and {p1} are such points on {line2} that {p0}{p2} is equal to {p0}{p1} is
+  equal to {p1}{p3}'
+- '{p0} and {p1} are such points on {line2} that {p0}{p2} is congruent to {p0}{p1}
+  is congruent to {p1}{p3}'
+- '{p0} and {p1} are such points on {line2} that {p0}{p2} is equivalent to {p0}{p1}
+  is equivalent to {p1}{p3}'

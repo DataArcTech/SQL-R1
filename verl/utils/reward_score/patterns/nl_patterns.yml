@@ -1,0 +1,988 @@
+
+
+#angle_bisector:
+#  - "{p0} is a point such that ∠{p1}{p2}{p0} = ∠{p0}{p2}{p3}. "
+#  - "{p0} is a point such that ∠{p1}{p2}{p0} is equal to ∠{p0}{p2}{p3}. "
+# Construct a point X on the angle bisector of ∠ABC
+angle_bisector: # X A B C
+  num_args: 4
+
+  rules:
+    point: [0]
+    angle1: [1, 2, 0]
+    angle2: [0, 2, 3]
+    angle_full: {type: angle, args: [1, 2, 3]}
+    bisector: {type: literal, args: ['bisector', 'angle bisector']}
+    the: {type: literal, args: ['the', 'a']}
+    angles: {type: conjunction, args: [angle1, angle2]}
+    eqangles: {type: equality, args: [angle1, angle2]}
+
+  templates:
+    - "{point} is {the} {bisector} of {angle_full}"
+    - "{point} bisects {angle_full}"
+
+    - "{point} bisects {angles}"
+    - "{angles} are bisected by {point}"
+
+    - "{point} is on {the} {bisector} of {angles}"
+    - "{point} is {the} {bisector} such that {eqangles}"
+
+#angle_mirror:
+#    - "{p0} is a point such that ∠{p1}{p2}{p3} = ∠{p3}{p2}{p0}. "
+#    - "{p0} is a point such that ∠{p1}{p2}{p3} is equal to ∠{p3}{p2}{p0}. "
+# Construct a point X such that BC is the bisector of ∠ABX
+angle_mirror: # X A B C
+  num_args: 4
+
+  rules:
+    point: [0]
+    point_mirror: [1]
+    line: [2, 3]
+    angle1: [1, 2, 3]
+    angle2: [3, 2, 0]
+    angle_full: [1, 2, 0]
+    angles: {type: conjunction, args: [angle1, angle2]}
+    eqangles: {type: equality, args: [angle1, angle2]}
+
+  templates:
+    - "{point} is reflected across {line}"
+    - "{point} is the mirror image of {point_mirror} across {line}"
+
+    - "{line} is the bisector of {angle_full}"
+    - "{point} is a point such that {eqangles}"
+
+#circle:
+#    - "{p0} is the centre of the circle that passes through {p1}, {p2}, {p3}. "
+# Construct a point X as the circumcenter of A, B, C
+circle: # X A B C
+  num_args: 4
+
+  rules:
+      point: [0]
+      triangle: [1, 2, 3]
+      circle: [0, 1, 2, 3]
+      points: {type: conjunction, args: [p1, p2, p3]}
+      corners: {type: ref, args: [points, triangle]}
+      passing: {type: literal, args: ['that passes through', 'passing through']}
+
+  templates:
+#      - "{point} is the circumcenter of {corners}"
+      - "{point} is the center of the circle {passing} {points}"
+      - "the center of the circle {passing} {points} is {point}"
+      - "{point} is the center of {circle}"
+
+#circumcenter:
+#    - "{p0} is the centre of the circumcenter of the triangle {p1}{p2}{p3}. "
+#
+circumcenter:
+    num_args: 4
+
+    rules:
+        point: [0]
+        triangle: [1, 2, 3]
+        points: {type: conjunction, args: [p1, p2, p3]}
+        corners: {type: ref, args: [points, triangle]}
+
+    templates:
+      - "{point} is the circumcenter of {corners}"
+
+#eq_quadrangle:
+#    - "{p0}{p1}{p2}{p3} is a quadrilateral with {p0}{p3} = {p1}{p2}. "
+# Construct quadrilateral ABCD such that AB = CD
+eq_quadrangle: # A B C D
+  num_args: 4
+
+  rules:
+    quadrilateral: [0, 1, 2, 3]
+    line1: [0, 3]
+    line2: [1, 2]
+    corners: {type: ord-conjunction, args: [p0, p1, p2, p3]}
+    eqsides: {type: equality, args: [line1, line2]}
+    where: {type: literal, args: ['with', 'such that', 'where']}
+    desc: {type: ref, args: [quadrilateral, corners]}
+
+  templates:
+    - "{desc} is a quadrilateral {where} {eqsides}"
+    - "{corners} forms a quadrilateral {where} {eqsides}"
+
+#eq_trapezoid:
+#    - "{p0}{p1}{p2}{p3} is an isosceles trapezoid with {p3}{p0} = {p1}{p2}. "
+# Construct trapezoid ABCD such that AD = BC
+eq_trapezoid: # A B C D
+  num_args: 4
+
+  rules:
+    trapezoid: [0, 1, 2, 3]
+    line1: [0, 3]
+    line2: [1, 2]
+    corners: {type: ord-conjunction, args: [p0, p1, p2, p3]}
+    eqsides: {type: equality, args: [line1, line2]}
+    where: {type: literal, args: ['with', 'such that', 'where']}
+    desc: {type: ref, args: [trapezoid, corners]}
+
+  templates:
+    - "{desc} is a trapezoid {where} {eqsides}"
+    - "{corners} forms a trapezoid {where} {eqsides}"
+
+#eq_triangle:
+#    - "{p0}{p1}{p2} is an equilateral triangle. "
+# Construct an equilateral triangle ABC
+eq_triangle: # A B C
+  num_args: 3
+
+  rules:
+    triangle: [0, 1, 2]
+    points: {type: conjunction, args: [p0, p1, p2]}
+    line1: [0, 1]
+    line2: [1, 2]
+    line3: [2, 0]
+    eqsides: {type: equality, args: [line1, line2, line3]}
+    where: {type: literal, args: ['with', 'such that', 'where']}
+    desc: {type: ref, args: [triangle, points]}
+    sides: {type: literal, args: ['angles', 'sides']}
+    equilateral: {type: literal, args: ['equilateral', 'an equilateral', 'an equilateral triangle']}
+    prep: {type: literal, args: ['for', 'in']}
+    allof: {type: literal, args: ['all', 'each of the', 'the']}
+    equal: {type: literal, args: ['equal', 'congruent', 'equivalent']}
+
+  templates:
+    - "{desc} is {equilateral}"
+    - "{points} forms an equilateral triangle"
+    - "{prep} {triangle}, {allof} {sides} are {equal}"
+    - "{allof} {sides} of {triangle} are {equal}"
+    - "{prep} {triangle}, {eqsides}"
+    - "{eqsides} {prep} {triangle}"
+
+#eqangle2:
+#    - "{p0} is a point such that ∠{p2}{p1}{p0} = ∠{p0}{p3}{p2}. "
+# Construct a point X such that ∠BAX = ∠XCB
+eqangle2: # X A B C
+  num_args: 4
+
+  rules:
+    point: [0]
+    angle1: [2, 1, 0]
+    angle2: [0, 3, 2]
+    eqangles: {type: equality, args: [angle1, angle2]}
+    where: {type: literal, args: ['such that', 'where']}
+
+  templates:
+    - "{point} is a point {where} {eqangles}"
+
+#eqdia_quadrangle:
+#    - "{p0}{p1}{p2}{p3} is a quadrilateral whose diagonals are equal. "
+# Construct a quadrilateral ABCD such that AC = BD
+eqdia_quadrangle: # A B C D
+  num_args: 4
+
+  rules:
+    quadrilateral: [0, 1, 2, 3]
+    line1: [0, 2]
+    line2: [1, 3]
+    corners: {type: ord-conjunction, args: [p0, p1, p2, p3]}
+    prep: {type: literal, args: ['for', 'in']}
+    equal: {type: literal, args: ['equal', 'congruent', 'equivalent']}
+    diags: {type: conjunction, args: [line1, line2]}
+    eqdiags: {type: equality, args: [line1, line2]}
+    where: {type: literal, args: ['such that', 'where']}
+    desc: {type: ref, args: [quadrilateral, corners]}
+
+  templates:
+    - "{prep} {quadrilateral}, {eqdiags}"
+    - "{desc} is a quadrilateral {where} {eqdiags}"
+    - "{corners} forms a quadrilateral {where} {eqdiags}"
+    - "{diags} are {equal} in {quadrilateral}"
+    - "the diagonals of {quadrilateral} are {equal}"
+    - "{quadrilateral} has {equal} diagonals"
+
+#eqdistance:
+#    - "{p0} is a point such that {p0}{p1} = {p2}{p3}. "
+# Construct a point X such that XA = BC
+eqdistance: # X A B C
+  num_args: 4
+
+  rules:
+    point: [0]
+    line1: [0, 1]
+    line2: [2, 3]
+    eqlines: {type: equality, args: [line1, line2]}
+    lines: {type: conjunction, args: [line1, line2]}
+    where: {type: literal, args: ['such that', 'where']}
+    equal: {type: literal, args: ['equal', 'congruent', 'equivalent']}
+
+  templates:
+    - "{point} is a point {where} {eqlines}"
+    - "{lines} are {equal}"
+    - "{eqlines}"
+    - "{line1} is the same as {line2}"
+
+free:
+  num_args: 1
+
+  rules:
+    point: [0]
+
+  templates:
+    - "{point} is a point"
+
+#foot:
+#    - "{p0} is the foot of the perpendicular dropped on to {p2}{p3} from {p1}. "
+# Construct X as the foot of A on BC
+foot: # X A B C
+  num_args: 4
+
+  rules:
+    point: [0]
+    point_foot: [1]
+    line: [2, 3]
+    line_perp: [0, 1]
+    where: {type: literal, args: ['of the perpendicular dropped on to', 'from']}
+
+  templates:
+    - "{point} is the foot of {point_foot} on {line}"
+    - "{point} is on {line} and {line_perp} is perpendicular to {line}"
+    - "the foot of {point_foot} on {line} is {point}"
+    - "{point_foot}{point} perpendicular to {point}{line}"
+
+#incenter:
+#    - "{p0} is is the incentre of triangle {p1}{p2}{p3}. "
+# Construct a point X as the incenter of ABC
+incenter: # X A B C
+  num_args: 4
+
+  rules:
+    point: [0]
+    triangle: [1, 2, 3]
+    points: {type: conjunction, args: [p1, p2, p3]}
+    desc: {type: ref, args: [points, triangle]}
+    the: {type: literal, args: ['the', 'the point of']}
+    meet: {type: literal, args: ['intersection of the angle bisectors', 'concurrence of the angle bisectors',
+                                 'meeting point of the angle bisectors']}
+    loc: {type: literal, args: ['is', 'is located at', 'is at']}
+
+  templates:
+    - "{point} {loc} the incenter of {desc}"
+    - "{triangle} has incenter {point}"
+    - "the incenter of {triangle} {loc} {point}"
+    - "{point} {loc} {the} {meet} of {triangle}"
+
+#incenter2: # TODO(Partha): opportunity to augment! Symantic!  Also use respectively!
+#    - "{p3} is is the incentre of triangle {p4}{p5}{p6}. The incircle touches the arm {p4}{p5} at {p2}, the arm {p5}{p6} at {p0} and the arm {p6}{p4} at {p1}. "
+incenter2: # X Y Z I A B C
+    num_args: 7
+
+    rules:
+        point: [3]
+        triangle: [4, 5, 6]
+        points: {type: ord-conjunction, args: [p4, p5, p6]}
+        desc: {type: ref, args: [points, triangle]}
+        the: {type: literal, args: ['the', 'the point of']}
+        meet: {type: literal, args: ['intersection of the angle bisectors', 'concurrence of the angle bisectors',
+                                     'meeting point of the angle bisectors']}
+        loc: {type: literal, args: ['is', 'is located at', 'is at']}
+        incircle: {type: literal, args: ['incircle', 'the incircle']}
+        touches: {type: literal, args: ['touches', 'intersects', 'meets']}
+        line1: [4, 5]
+        line2: [5, 6]
+        line3: [6, 4]
+        touchpoints: {type: ord-conjunction, args: [p0, p1, p2]}
+
+    templates:
+      - "{point} {loc} the incenter of {desc} with touchpoints {touchpoints}"
+      - "{triangle} has incenter {point} and touchpoints {touchpoints}"
+
+excenter: # x a b c
+    num_args: 4
+
+    rules:
+        point: [0]
+        triangle: [1, 2, 3]
+        points: {type: conjunction, args: [p1, p2, p3]}
+        desc: {type: ref, args: [points, triangle]}
+        the: {type: literal, args: ['the', 'the point of']}
+        meet: {type: literal, args: ['intersection of the exterior angle bisectors',
+                                     'concurrence of the exterior angle bisectors',
+                                     'meeting point of the exterior angle bisectors']}
+        loc: {type: literal, args: ['is', 'is located at', 'is at']}
+
+    templates:
+      - "{point} {loc} the excenter of {desc}"
+      - "{triangle} has excenter {point}"
+      - "the excenter of {triangle} {loc} {point}"
+      - "{point} {loc} {the} {meet} of {triangle}"
+
+excenter2: # X Y Z I A B C
+    num_args: 7
+
+    rules:
+        point: [3]
+        triangle: [4, 5, 6]
+        points: {type: ord-conjunction, args: [p4, p5, p6]}
+        desc: {type: ref, args: [points, triangle]}
+        the: {type: literal, args: ['the', 'the point of']}
+        meet: {type: literal, args: ['intersection of the exterior angle bisectors',
+                                     'concurrence of the exterior angle bisectors',
+                                     'meeting point of the exterior angle bisectors']}
+        loc: {type: literal, args: ['is', 'is located at', 'is at']}
+        incircle: {type: literal, args: ['incircle', 'the incircle']}
+        touches: {type: literal, args: ['touches', 'intersects', 'meets']}
+        line1: [4, 5]
+        line2: [5, 6]
+        line3: [6, 4]
+        touchpoints: {type: ord-conjunction, args: [p0, p1, p2]}
+
+    templates:
+      - "{point} {loc} the excenter of {desc} with touchpoints {touchpoints}"
+      - "{triangle} has excenter {point} and touchpoints {touchpoints}"
+
+centroid: # x y z i a b c
+    num_args: 7
+
+    rules:
+        point: [3]
+        triangle: [4, 5, 6]
+        points: {type: conjunction, args: [p4, p5, p6]}
+        desc: {type: ref, args: [points, triangle]}
+        the: {type: literal, args: ['the', 'the point of']}
+        meet: {type: literal, args: ['intersection of the medians', 'concurrence of the medians',
+                                     'meeting point of the medians']}
+        loc: {type: literal, args: ['is', 'is located at', 'is at']}
+
+    templates:
+      - "{point} {loc} the centroid of {desc}"
+      - "{triangle} has centroid {point}"
+      - "the centroid of {triangle} {loc} {point}"
+      - "{point} {loc} {the} {meet} of {triangle}"
+
+ninepoints: # x y z i a b c
+    num_args: 7
+
+    rules:
+        point: [3]
+        triangle: [4, 5, 6]
+        point_mid1: [0]
+        point_mid2: [1]
+        point_mid3: [2]
+        line1: [4, 5]
+        line2: [5, 6]
+        line3: [6, 4]
+        points: {type: conjunction, args: [p4, p5, p6]}
+        desc: {type: ref, args: [points, triangle]}
+        the: {type: literal, args: ['the', 'the point of']}
+        loc: {type: literal, args: ['is', 'is located at', 'is at']}
+
+    templates:
+      - "{point} {loc} the centre of the nine-point circle of {desc}. the circle intersects the sides {line2}, {line3}, and {line1} at {point_mid1}, {point_mid2}, and {point_mid3} respectively"
+      - "{triangle} has nine-point center {point} and the circle intersects the sides {line2}, {line3}, and {line1} at {point_mid1}, {point_mid2}, and {point_mid3} respectively"
+      - "the nine-point center of {triangle} {loc} {point}. the circle intersects the sides {line2}, {line3}, and {line1} at {point_mid1}, {point_mid2}, and {point_mid3} respectively"
+      - "{point} {loc} the centre of the nine-point circle of {desc}. the circle intersects the sides {line2}, {line3}, and {line1} at {point_mid1}, {point_mid2}, and {point_mid3} respectively"
+      - "{triangle} has nine-point center {point} and the circle intersects the sides {line2}, at {point_mid1}, {line3}, at {point_mid2}, and {line1}, at {point_mid3}"
+      - "the nine-point center of {triangle} {loc} {point}. the circle intersects the sides {line2}, at {point_mid1}, {line3}, at {point_mid2}, and {line1}, at {point_mid3}"
+
+intersection_cc: # x o w a
+  num_args: 4
+
+  rules:
+    _circle1: [1, 3]
+    _circle2: [2, 3]
+    intersection: {type: literal, args: ['intersects', 'meets']}
+    where: {type: literal, args: ['at', 'at the points']}
+    points: {type: conjunction, args: [p0, p3]}
+
+  templates:
+    - "{_circle1} {intersection} {_circle2} {where} {points}"
+
+intersection_lc: # x a o b
+  num_args: 4
+
+  rules:
+    line: [1, 3]
+    _circle1: [2, 3]
+    intersection: {type: literal, args: ['intersects', 'meets']}
+    where: {type: literal, args: ['at', 'at the points']}
+    points: {type: conjunction, args: [p0, p3]}
+
+  templates:
+    - "{line} {intersection} {_circle1} {where} {points}"
+
+intersection_ll: # x a b c d
+    num_args: 5
+
+    rules:
+        line1: [1, 2]
+        line2: [3, 4]
+        intersection: {type: literal, args: ['intersects', 'meets']}
+        where: {type: literal, args: ['at', 'at the point']}
+        point: [0]
+
+    templates:
+        - "{line1} {intersection} {line2} {where} {point}"
+
+intersection_lp: # x a b c m n
+    num_args: 6
+
+    rules:
+        line1: [1, 2]  # a, b
+        line2: [4, 5]  # m, n
+        point1: [3]  # c
+        point2: [0]  # x
+        intersection: {type: literal, args: ['intersects', 'meets', 'crosses']}
+        where: {type: literal, args: ['at', 'at the point']}
+        
+    templates:
+        - "Parallel {line2} through {point1} {intersection} {line1} at {point2}"
+
+intersection_lt: # x a b c d e
+    num_args: 6
+
+    rules:
+        point: [0]
+        line1: [1, 2]  # a, b
+        line2: [4, 5]  # d, e
+        line3: [3, 0]  # c, x
+        intersection: {type: literal, args: ['intersects', 'meets', 'crosses']}
+        perpend: {type: literal, args: ['perpendicular', 'at right angle']}
+        where: {type: literal, args: ['at', 'at the point']}
+
+    templates:
+          - "{line1} not {perpend} to {line2}. {line3} {perpend} to {line2} {intersection} {line1} {where} {point}"
+
+intersection_pp: # x a b c d e f
+    num_args: 7
+
+    rules:
+        point: [0]
+        line1: [0, 1]  # x, a
+        line2: [2, 3]  # b, c
+        line3: [4, 0]  # d, x
+        line4: [5, 6]  # e, f
+        parallel: {type: literal, args: ['parallel', ]}
+        parallel2: {type: literal, args: ['||', ]}
+        intersection: {type: literal, args: ['intersects', 'meets', 'crosses']}
+        where: {type: literal, args: ['at', 'at the point']}
+
+    templates:
+        - "{line1} and {line2} are {parallel}. {line3} and {line4} are {parallel}. {line1} {intersection} {line3} {where} {point}"
+        - "{line1} {parallel2} {line2}. {line3} {parallel2} {line4}. {line1} {intersection} {line3} {where} {point}"
+
+intersection_tt: # x a b c d e f
+    num_args: 7
+
+    rules:
+        point: [0]
+        line1: [2, 3] # b, c
+        line2: [5, 6] # e, f
+        line3: [1, 0] # a, x
+        line4: [4, 0] # d, x
+        parallel: { type: literal, args: [ 'parallel', ] }
+        parallel2: { type: literal, args: [ '||', ] }
+        intersection: {type: literal, args: ['intersects', 'meets', 'crosses']}
+        perpend: {type: literal, args: ['perpendicular', 'at right angle']}
+        where: {type: literal, args: ['at', 'at the point']}
+
+    templates:
+        - "{line1} and {line2} are {parallel}. {line3} {perpend} to {line1}. {line4} {perpend} to {line2}. {line3} {intersection} {line4} {where} {point}"
+        - "{line1} {parallel2} {line2}. {line3} {perpend} to {line1}. {line4} {perpend} to {line2}. {line3} {intersection} {line4} {where} {point}"
+        - "{line1} and {line2} are {parallel}. {line3} {perpend} to {line1}. {line4} and {line3} are {perpend} to {line2} and {line1} respectively. They intersect at {point}"
+        - "{line1} {parallel2} {line2}. {line3} {perpend} to {line1}. {line4} and {line3} are {perpend} to {line2} and {line1} respectively. They intersect at {point}"
+
+iso_triangle: # a b c
+    num_args: 3
+
+    rules:
+        triangle: [0, 1, 2]
+        line1: [1, 2] # b, c
+        line2: [2, 0] # c, a
+        line3: [0, 1] # a, b
+        angle1: [ 1, 2, 0 ] # b, c, a
+        angle2: [ 0, 1, 2 ] # a, b, c
+        equal: {type: literal, args: ['equal to', 'congruent to', 'equivalent to', '=']}
+
+    templates:
+        - "{triangle} is an isosceles triangle with {line2} {equal} {line3}"
+        - "{triangle} is an isosceles triangle with {line1} as base"
+        - "{triangle} is an isosceles triangle with {angle1} {equal} {angle2}"
+
+lc_tangent: # x a o
+    num_args: 3
+
+    rules:
+        point: [0]
+        line: [0, 1]  # x, a
+        _circle: [2, 1]  # centre o, radius oa
+        tangent: {type: literal, args: ['tangent', 'touching',]}
+        where: {type: literal, args: ['at', 'at the point']}
+
+    templates:
+        - "{line} is {tangent} to {_circle} {where} {point}"
+
+midpoint: # x y z
+    num_args: 3
+
+    rules:
+        point: [0]
+        segment1: {type: conjunction, args: [p0, p2]}
+        segment2: {type: conjunction, args: [p1, p0]}
+        line3: [1, 2]
+        midpoint: {type: literal, args: ['midpoint', 'the midpoint']}
+        length: {type: literal, args: ['length of', 'the length of', 'distance between', 'the distance between']}
+        where: {type: literal, args: ['such that', 'where']}
+        equal: {type: literal, args: ['equal', 'congruent', 'equivalent']}
+
+    templates:
+      - "{point} is the {midpoint} of {line3}"
+      - "{point} is a point {where} {length} {segment1} {equal} {length} {segment2}"
+
+mirror: # x a b
+    num_args: 3
+
+    rules:
+        point: [0]
+        line: [1, 2] # a, b
+        segment1: { type: conjunction, args: [ p0, p2 ] } # x, b
+        segment2: { type: conjunction, args: [ p1, p2 ] } # a, b
+        equal: {type: literal, args: ['equal', 'congruent', ]}
+
+    templates:
+        - "{point} is on {line} such that {segment1} is {equal} to {segment2}"
+
+nsquare: # x a b
+    num_args: 3
+
+    templates:
+        - "{p0}, {p1}, {p2} are three consecutive vertices of a square"
+
+on_aline: # x a b c d e
+    num_args: 6
+
+    rules:
+        point: [0]
+        angle1: [0, 1, 2] # ∠xab
+        angle2: [3, 4, 5] # ∠cde
+        equal: {type: literal, args: ['equal', 'congruent', 'equivalent']}
+    templates:
+        - "{point} is such that {angle1} is {equal} to {angle2}"
+
+on_aline2: # x a b c d e
+    num_args: 6
+
+    rules:
+        point: [0]
+        angle1: [1, 0, 2] # ∠axb
+        angle2: [3, 4, 5] # ∠cde
+        equal: {type: literal, args: ['equal', 'congruent', 'equivalent']}
+    templates:
+        - "{point} is such that {angle1} is {equal} to {angle2}"
+
+on_bline: # x a b
+    num_args: 3
+
+    rules:
+        point: [0]
+        line: [1, 2] # a, b
+
+    templates:
+        - "{point} is on perpendicular bisector of {line}"
+
+on_circle: # x o a
+    num_args: 3
+
+    rules:
+        point: [0]
+        _circle: [2, 1]
+        on_: {type: literal, args: ['on', 'on the circumference of', 'on the circle']}
+
+    templates:
+        - "{point} is {on_} {_circle}"
+
+on_line: # x a b
+    num_args: 3
+
+    rules:
+        point: [0]
+        line: [1, 2] # a, b
+
+    templates:
+        - "{point} is on {line}"
+        - "{point},{point},{point} are collinear"
+        - "{point},{point},{point} are not collinear"
+
+on_pline: # x a b c
+    num_args: 4
+
+    rules:
+        point: [0]
+        line: [1, 2] # a, b
+        point2: [3] # c
+
+    templates:
+        - "{point} is on a line through {point2} and parallel to {line}"
+
+on_tline: # x a b c
+    num_args: 4
+
+    rules:
+        point: [0]
+        line: [1, 2] # a, b
+        point2: [3] # c
+        perp: {type: literal, args: ['perpendicular', 'at right angle']}
+
+    templates:
+        - "{point} is on a line through {point2} and {perp} to {line}"
+
+orthocenter: # x a b c
+    num_args: 4
+
+    rules:
+        point: [0]
+        triangle: [1, 2, 3]
+        points: {type: conjunction, args: [p1, p2, p3]}
+        desc: {type: ref, args: [points, triangle]}
+        the: {type: literal, args: ['the', 'the point of']}
+        meet: {type: literal, args: ['intersection of the altitudes', 'concurrence of the altitudes',
+                                     'meeting point of the altitudes']}
+        loc: {type: literal, args: ['is', 'is located at', 'is at']}
+
+    templates:
+      - "{point} {loc} the orthocenter of {desc}"
+      - "{triangle} has orthocenter {point}"
+      - "the orthocenter of {triangle} {loc} {point}"
+      - "{point} {loc} {the} {meet} of {triangle}"
+
+parallelogram: # a b c x
+    num_args: 4
+
+    rules:
+        point: [3]
+        parallel: {type: literal, args: ['||', 'parallel to', 'parallel with', 'is parallel to']}
+
+    templates:
+        - "{p0}{p1}{p2}{p3} is a parallelogram"
+        - "{p3} is such that {p0}{p1} {parallel} {p2}{p3} and {p0}{p3} {parallel} {p1}{p2}"
+        - "{p0}{p1} is {parallel} to {p2}{p3}"
+
+pentagon: # a b c d e
+    num_args: 5
+
+    rules:
+        pentagon: {type: literal, args: ['pentagon', 'a pentagon']}
+
+    templates:
+        - "{p0}{p1}{p2}{p3}{p4} is a pentagon"
+
+# Todo(Felix, Max): Can you tell why this is same as n square?
+psquare: # x a b
+    num_args: 3
+
+    rules:
+        point: [0]
+        square: {type: literal, args: ['square', 'a square']}
+
+    templates:
+        - "{point}, {p1}, {p2} are three consecutive vertices of a square"
+
+quadrangle: # a b c d
+    num_args: 4
+
+    rules:
+        quadrangle: {type: literal, args: ['quadrangle', 'quadrilateral']}
+
+    templates:
+        - "{p0}{p1}{p2}{p3} is a {quadrangle}"
+
+r_trapezoid: # a b c d
+    num_args: 4
+
+    rules:
+      perp: {type: literal, args: ['perpendicular', 'at right angle', '⊥']}
+
+    templates:
+        - "{p0}{p1}{p2}{p3} is a right angle trapezoid, with {p0}{p1} {perp} to {p0}{p3}"
+
+r_triangle: # a b c
+    num_args: 3
+
+    rules:
+        perp: {type: literal, args: ['perpendicular', 'at right angle', '⊥']}
+
+    templates:
+        - "{p0}{p1}{p2} is a right triangle, with {p0}{p1} {perp} to {p0}{p2}"
+        - "{p0}{p1}{p2} is a right triangle, with the right angle ar {p0}"
+
+rectangle: # a b c d
+    num_args: 4
+
+    rules:
+        rectangle: {type: literal, args: ['rectangle']}
+
+    templates:
+        - "{p0}{p1}{p2}{p3} is a {rectangle}"
+
+reflect: # x a b c
+    num_args: 4
+
+    rules:
+        point: [0]
+        line: [2, 3] # b, c
+        point1: [1] # a
+        on_: {type: literal, args: ['on', 'over']}
+
+    templates:
+        - "{point} is the reflection of {point1} {on_} {line}"
+
+
+risos: # a b c
+    num_args: 3
+    rules:
+        points: {type: conjunction, args: [p0, p1, p2]}
+
+    templates:
+        - "{points} is a right angle isosceles triangle with the right angle at {p0}"
+
+s_angle: # a b x y
+    num_args: 4
+
+    rules:
+        point: [2]
+        angle1: [0, 1, 2] # ∠abx
+        equal: {type: literal, args: ['equal', 'congruent', 'equivalent']}
+
+    templates:
+        - "{point} is such that ∠{p0}{p1}{p2} is {equal} to {p3} degrees"
+
+segment: # a b
+  num_args: 2
+
+  rules:
+    line: [0, 1]
+    points: {type: conjunction, args: [p0, p1]}
+    desc: {type: ref, args: [points,]}
+    the: {type: literal, args: ['the', 'the segment']}
+    is: {type: literal, args: ['is', 'is the segment']}
+
+  templates:
+      - "{desc} is a segment of {line}"
+
+shift: # x b c d
+    num_args: 4
+
+    rules:
+        line1: [2, 3] # b, c
+        line2: [0, 1] # x, d
+
+    templates:
+        - "{line2} is the result of shifting {line1}"
+        - "{line2} is the shifted version of {line1}"
+
+square: # a b x y
+    num_args: 4
+
+    rules:
+#        points: [2, 3]  # x, y
+        points: {type: conjunction, args: [p2, p3]} # x, y
+        line1: [0, 1] # a, b
+
+    templates:
+        - "{p0}{p1}{p2}{p3} is a square"
+        - "{points} are constructed such that {p0}{p1}{p2}{p3} forms a square"
+        - "given {line1}, construct {points} such that {p0}{p1}{p2}{p3} is a square"
+
+isquare: # a b c d
+    num_args: 4
+
+    rules:
+#        points: [2, 3] # x, y
+        points: {type: conjunction, args: [p2, p3]} # x, y
+        line1: [0, 1] # a, b
+
+    templates:
+        - "{p0}{p1}{p2}{p3} is a square"
+        - "{points} are constructed such that {p0}{p1}{p2}{p3} forms a square"
+        - "given {line1}, construct {points} such that {p0}{p1}{p2}{p3} is a square"
+
+trapezoid: # a b c d
+    num_args: 4
+
+    rules:
+        trapezoid: {type: literal, args: ['trapezoid']}
+
+    templates:
+        - "{p0}{p1}{p2}{p3} is a trapezoid"
+
+triangle: # a b c
+    num_args: 3
+
+    rules:
+        triangle: [0, 1, 2]
+
+    templates:
+        - "{p0}{p1}{p2} is a {triangle}"
+
+triangle12: # a b c
+    num_args: 3
+
+    rules:
+        triangle: [0, 1, 2]
+        side1: {type: conjunction, args: [p0, p1]}
+        side2: {type: conjunction, args: [p1, p2]}
+        double: {type: literal, args: ['double', 'twice', '1:2']}
+        half: {type: literal, args: ['half', '2:1']}
+
+    templates:
+        - "{p0}{p1}{p2} is a {triangle}, such that {side2} is {double} in length to that of {side1}"
+        - "{p0}{p1}{p2} is a {triangle}, such that {side1} is {half} in length to that of {side2}"
+
+2l1c: # x y z i a b c o
+    num_args: 8
+
+    rules:
+        line1: [4, 6] # a, c
+        line2: [5, 6] # b, c
+        _circle1: [7, 4] # centre o, radius oa
+
+    templates:
+        - "{line1} and {line2} are tangents to a circle centered at {p7} at point {p0} and {p1} respectively. 
+        The circle centered at {p7} touches {_circle1} at {p3}"
+
+e5128: # x y a b c d
+    num_args: 6
+
+    rules:
+      line1: [0, 5] # x, d
+      line2: [1, 2] # a, b
+      _circle: [3, 4] # centre c, radius cb
+
+    templates:
+        - "{line2} is a tangent to the circle centered at {p4} at point {p3}. {line1} is a chord of the circle. It intersects the tangent at point {p1}"
+        - "{_circle} has {line2} as a tangent at point {p3}. {line1} is a chord of the circle. It intersects the tangent at point {p1}"
+        - "{_circle} has {line1} as a chord. It intersects the tangent line {line2} at point {p1}"
+
+3peq: # x y z a b c
+    num_args: 6
+
+    rules:
+        line1: [3, 4] # a, b
+        line2: [4, 5] # b, c
+        line3: [5, 3] # c, a
+        line4: [0, 1] # x, y
+        triangle: [3, 4, 5] # a, b, c
+        equal: {type: literal, args: ['equal', 'congruent', 'equivalent']}
+
+    templates:
+        - "{line1} {line2} and {line3} are sides of {triangle}. {line4} intersects {line1} at {p1}, {line2} at {p2} and {line3} at {p0} such that {p0}{p1} is {equal} to {p1}{p2}"
+
+trisect: # x y a b c
+    num_args: 5
+
+    rules:
+        triangle: [2, 3, 4] # a, b, c
+        line1: [2, 4] # a, c
+        angle1: [2, 3, 0] # a, b, x
+        angle2: [0, 3, 1] # x, b, y
+        angle3: [1, 3, 4] # y, b, c
+        angle4: [2, 3, 4] # a, b, c
+
+    templates:
+        - "{p0} and {p1} two points on {line1} of {triangle} such that {angle1} is 1/3 of {angle4} and {angle2} is 1/3 of {angle4}"
+        - "{p0} and {p1} two points on {line1} of {triangle} such that {angle4} is trisected by {p0}{p4} and {p4}{p1}"
+
+trisegment: # x y a b
+    num_args: 4
+
+    rules:
+        line2: [2, 3] # a, b
+        equal: {type: literal, args: ['equal', 'congruent', 'equivalent']}
+
+    templates:
+        - "{line2} is trisected by {p2} and {p3}."
+        - "{p0} and {p1} are such points on {line2} that {p0}{p2} is {equal} to {p0}{p1} is {equal} to {p1}{p3}"
+
+on_dia: # x a b
+    num_args: 3
+
+    rules:
+        point: [0]
+        line: [1, 2] # a, b
+
+    templates:
+        - "{point} is on the circle which has {line} as diameter"
+        - "{point} is on the circumference of the circle that has {line} as diameter"
+
+ieq_triangle: # a b c
+    num_args: 3
+
+    rules:
+        triangle: [0, 1, 2]
+
+    templates:
+        - "{triangle} is an equilateral triangle"
+
+on_opline: # x a b
+    num_args: 3
+
+    rules:
+        point: [0]
+        line: [1, 2] # a, b
+    templates:
+        - "{point} is on the extended line {line}"
+
+cc_tangent0: # x y o a w b
+    num_args: 6
+
+    rules:
+        line1: [0, 1] # x, y
+        _circle: [2, 3] # centre o, radius oa
+        _circle2: [4, 5] # centre w, radius wb
+
+    templates:
+        - "{line1} is a tangent to the {_circle} at point {p0} and {_circle2} at point {p1}."
+        - "{line1} is a common tangent to the {_circle} and {_circle2} at points {p0} and {p1} respectively."
+
+cc_tangent: # x y z i o a w b
+    num_args: 8
+
+    rules:
+        line1: [0, 1] # x, y
+        line2: [2, 3] # z, i
+        _circle: [4, 5] # centre o, radius oa
+        _circle2: [6, 7] # centre w, radius wb
+
+    templates:
+        - "{line1} and {line2} are common tangents to {_circle} and {_circle2} at points {p0}, {p1} and {p2}, {p3} respectively."
+
+eqangle3: # x a b d e f
+    num_args: 6
+
+    rules:
+        angle1: [0, 1, 2] # ∠xab
+        angle2: [3, 4, 5] # ∠def
+        equal: {type: literal, args: ['equal', 'congruent', 'equivalent', 'identical']}
+
+    templates:
+        - "{angle1} is {equal} to {angle2}"
+        - "{angle1} equals {angle2}"
+        - "{angle1} is the same as {angle2}"
+
+tangent: # x y a o b
+    num_args: 5
+
+    rules:
+        _circle: [3, 4] # centre o, radius ob
+        line1: [0, 2] # x, a
+        line2: [1, 2] # y, a
+
+    templates:
+        - "{line1} and {line2} are the two tangents to {_circle} at point {p0} and {p1} respectively."
+
+on_circum: # x a b c
+    num_args: 4
+
+    rules:
+        point: [0]
+        triangle: [1, 2, 3]
+        points: {type: conjunction, args: [p1, p2, p3]} # a, b, c
+        passing: {type: literal, args: ['that passes through', 'passing through']}
+
+    templates:
+        - "{point} is on the circumcircle of {triangle}"
+        - "{point} is on the circumferance of the circle {passing} {points}"

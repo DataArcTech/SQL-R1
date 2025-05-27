@@ -1,0 +1,3201 @@
+{
+  "debit_card_specializing": {
+    "customers.customerid": [
+      3,
+      5
+    ],
+    "customers.segment": [
+      "SME",
+      "LAM"
+    ],
+    "customers.currency": [
+      "EUR",
+      "CZK"
+    ],
+    "gasstations.gasstationid": [
+      44,
+      45
+    ],
+    "gasstations.chainid": [
+      13,
+      6
+    ],
+    "gasstations.country": [
+      "CZE",
+      "SVK"
+    ],
+    "gasstations.segment": [
+      "Value for money",
+      "Premium"
+    ],
+    "products.productid": [
+      1,
+      2
+    ],
+    "products.description": [
+      "Rucní zadání",
+      "Nafta"
+    ],
+    "transactions_1k.transactionid": [
+      1,
+      2
+    ],
+    "transactions_1k.date": [
+      "2012-08-24",
+      "2012-08-23"
+    ],
+    "transactions_1k.time": [
+      "09:41:00",
+      "10:03:00"
+    ],
+    "transactions_1k.customerid": [
+      31543,
+      46707
+    ],
+    "transactions_1k.cardid": [
+      486621,
+      550134
+    ],
+    "transactions_1k.gasstationid": [
+      3704,
+      656
+    ],
+    "transactions_1k.productid": [
+      2,
+      23
+    ],
+    "transactions_1k.amount": [
+      28,
+      18
+    ],
+    "transactions_1k.price": [
+      672.64,
+      430.72
+    ],
+    "yearmonth.customerid": [
+      39,
+      63
+    ],
+    "yearmonth.date": [
+      "201112",
+      "201201"
+    ],
+    "yearmonth.consumption": [
+      528.3,
+      1598.28
+    ]
+  },
+  "financial": {
+    "account.account_id": [
+      1,
+      2
+    ],
+    "account.district_id": [
+      18,
+      1
+    ],
+    "account.frequency": [
+      "POPLATEK MESICNE",
+      "POPLATEK TYDNE"
+    ],
+    "account.date": [
+      "1995-03-24",
+      "1993-02-26"
+    ],
+    "card.card_id": [
+      1,
+      2
+    ],
+    "card.disp_id": [
+      9,
+      19
+    ],
+    "card.type": [
+      "gold",
+      "classic"
+    ],
+    "card.issued": [
+      "1998-10-16",
+      "1998-03-13"
+    ],
+    "client.client_id": [
+      1,
+      2
+    ],
+    "client.gender": [
+      "F",
+      "M"
+    ],
+    "client.birth_date": [
+      "1970-12-13",
+      "1945-02-04"
+    ],
+    "client.district_id": [
+      18,
+      1
+    ],
+    "disp.disp_id": [
+      1,
+      2
+    ],
+    "disp.client_id": [
+      1,
+      2
+    ],
+    "disp.account_id": [
+      1,
+      2
+    ],
+    "disp.type": [
+      "OWNER",
+      "DISPONENT"
+    ],
+    "district.district_id": [
+      1,
+      2
+    ],
+    "district.a2": [
+      "Hl.m. Praha",
+      "Benesov"
+    ],
+    "district.a3": [
+      "Prague",
+      "central Bohemia"
+    ],
+    "district.a4": [
+      "1204953",
+      "88884"
+    ],
+    "district.a5": [
+      "0",
+      "80"
+    ],
+    "district.a6": [
+      "0",
+      "26"
+    ],
+    "district.a7": [
+      "0",
+      "6"
+    ],
+    "district.a8": [
+      1,
+      2
+    ],
+    "district.a9": [
+      1,
+      5
+    ],
+    "district.a10": [
+      100.0,
+      46.7
+    ],
+    "district.a11": [
+      12541,
+      8507
+    ],
+    "district.a12": [
+      0.2,
+      1.6
+    ],
+    "district.a13": [
+      0.43,
+      1.85
+    ],
+    "district.a14": [
+      167,
+      132
+    ],
+    "district.a15": [
+      85677,
+      2159
+    ],
+    "district.a16": [
+      99107,
+      2674
+    ],
+    "loan.loan_id": [
+      4959,
+      4961
+    ],
+    "loan.account_id": [
+      2,
+      19
+    ],
+    "loan.date": [
+      "1994-01-05",
+      "1996-04-29"
+    ],
+    "loan.amount": [
+      80952,
+      30276
+    ],
+    "loan.duration": [
+      24,
+      12
+    ],
+    "loan.payments": [
+      3373.0,
+      2523.0
+    ],
+    "loan.status": [
+      "A",
+      "B"
+    ],
+    "order.order_id": [
+      29401,
+      29402
+    ],
+    "order.account_id": [
+      1,
+      2
+    ],
+    "order.bank_to": [
+      "YZ",
+      "ST"
+    ],
+    "order.account_to": [
+      87144583,
+      89597016
+    ],
+    "order.amount": [
+      2452.0,
+      3372.7
+    ],
+    "order.k_symbol": [
+      "SIPO",
+      "UVER"
+    ],
+    "trans.trans_id": [
+      1,
+      5
+    ],
+    "trans.account_id": [
+      1,
+      2
+    ],
+    "trans.date": [
+      "1995-03-24",
+      "1995-04-13"
+    ],
+    "trans.type": [
+      "PRIJEM",
+      "VYDAJ"
+    ],
+    "trans.operation": [
+      "VKLAD",
+      "PREVOD Z UCTU"
+    ],
+    "trans.amount": [
+      1000,
+      3679
+    ],
+    "trans.balance": [
+      1000,
+      4679
+    ],
+    "trans.k_symbol": [
+      "SIPO",
+      "SLUZBY"
+    ],
+    "trans.bank": [
+      "AB",
+      "YZ"
+    ],
+    "trans.account": [
+      41403269,
+      87144583
+    ]
+  },
+  "formula_1": {
+    "circuits.circuitid": [
+      23,
+      61
+    ],
+    "circuits.circuitref": [
+      "sepang",
+      "bahrain"
+    ],
+    "circuits.name": [
+      "Sepang International Circuit",
+      "Bahrain International Circuit"
+    ],
+    "circuits.location": [
+      "Kuala Lumpur",
+      "Sakhir"
+    ],
+    "circuits.country": [
+      "Malaysia",
+      "Bahrain"
+    ],
+    "circuits.lat": [
+      2.76083,
+      26.0325
+    ],
+    "circuits.lng": [
+      101.738,
+      50.5106
+    ],
+    "circuits.url": [
+      "http://en.wikipedia.org/wiki/A1-Ring",
+      "http://en.wikipedia.org/wiki/AVUS"
+    ],
+    "constructors.constructorid": [
+      147,
+      39
+    ],
+    "constructors.constructorref": [
+      "mclaren",
+      "bmw_sauber"
+    ],
+    "constructors.name": [
+      "AFM",
+      "AGS"
+    ],
+    "constructors.nationality": [
+      "British",
+      "German"
+    ],
+    "constructors.url": [
+      "http://en.wikipedia.org/wiki/McLaren",
+      "http://en.wikipedia.org/wiki/BMW_Sauber"
+    ],
+    "drivers.driverid": [
+      452,
+      625
+    ],
+    "drivers.driverref": [
+      "hamilton",
+      "heidfeld"
+    ],
+    "drivers.number": [
+      44,
+      6
+    ],
+    "drivers.code": [
+      "HAM",
+      "HEI"
+    ],
+    "drivers.forename": [
+      "Lewis",
+      "Nick"
+    ],
+    "drivers.surname": [
+      "Hamilton",
+      "Heidfeld"
+    ],
+    "drivers.dob": [
+      "1985-01-07",
+      "1977-05-10"
+    ],
+    "drivers.nationality": [
+      "British",
+      "German"
+    ],
+    "drivers.url": [
+      "http://en.wikipedia.org/wiki/%C3%89lie_B",
+      "http://en.wikipedia.org/wiki/%C3%89ric_B"
+    ],
+    "seasons.year": [
+      1950,
+      1951
+    ],
+    "seasons.url": [
+      "http://en.wikipedia.org/wiki/1950_Formul",
+      "http://en.wikipedia.org/wiki/1951_Formul"
+    ],
+    "races.raceid": [
+      837,
+      833
+    ],
+    "races.year": [
+      2009,
+      2008
+    ],
+    "races.round": [
+      1,
+      2
+    ],
+    "races.circuitid": [
+      1,
+      2
+    ],
+    "races.name": [
+      "Australian Grand Prix",
+      "Malaysian Grand Prix"
+    ],
+    "races.date": [
+      "2009-03-29",
+      "2009-04-05"
+    ],
+    "races.time": [
+      "06:00:00",
+      "09:00:00"
+    ],
+    "races.url": [
+      "http://en.wikipedia.org/wiki/1950_Belgia",
+      "http://en.wikipedia.org/wiki/1950_Britis"
+    ],
+    "constructorresults.constructorresultsid": [
+      1,
+      2
+    ],
+    "constructorresults.raceid": [
+      18,
+      19
+    ],
+    "constructorresults.constructorid": [
+      1,
+      2
+    ],
+    "constructorresults.points": [
+      14.0,
+      8.0
+    ],
+    "constructorresults.status": [
+      "D"
+    ],
+    "constructorstandings.constructorstandingsid": [
+      1,
+      2
+    ],
+    "constructorstandings.raceid": [
+      18,
+      19
+    ],
+    "constructorstandings.constructorid": [
+      1,
+      2
+    ],
+    "constructorstandings.points": [
+      14.0,
+      8.0
+    ],
+    "constructorstandings.position": [
+      1,
+      3
+    ],
+    "constructorstandings.positiontext": [
+      "1",
+      "3"
+    ],
+    "constructorstandings.wins": [
+      1,
+      0
+    ],
+    "driverstandings.driverstandingsid": [
+      1,
+      2
+    ],
+    "driverstandings.raceid": [
+      18,
+      19
+    ],
+    "driverstandings.driverid": [
+      1,
+      2
+    ],
+    "driverstandings.points": [
+      10.0,
+      8.0
+    ],
+    "driverstandings.position": [
+      1,
+      2
+    ],
+    "driverstandings.positiontext": [
+      "1",
+      "2"
+    ],
+    "driverstandings.wins": [
+      1,
+      0
+    ],
+    "laptimes.raceid": [
+      1,
+      2
+    ],
+    "laptimes.driverid": [
+      1,
+      2
+    ],
+    "laptimes.lap": [
+      1,
+      2
+    ],
+    "laptimes.position": [
+      13,
+      12
+    ],
+    "laptimes.time": [
+      "1:49.088",
+      "1:33.740"
+    ],
+    "laptimes.milliseconds": [
+      109088,
+      93740
+    ],
+    "pitstops.raceid": [
+      841,
+      842
+    ],
+    "pitstops.driverid": [
+      1,
+      2
+    ],
+    "pitstops.stop": [
+      1,
+      2
+    ],
+    "pitstops.lap": [
+      16,
+      36
+    ],
+    "pitstops.time": [
+      "17:28:24",
+      "17:59:29"
+    ],
+    "pitstops.duration": [
+      "23.227",
+      "23.199"
+    ],
+    "pitstops.milliseconds": [
+      23227,
+      23199
+    ],
+    "qualifying.qualifyid": [
+      1,
+      2
+    ],
+    "qualifying.raceid": [
+      18,
+      19
+    ],
+    "qualifying.driverid": [
+      1,
+      9
+    ],
+    "qualifying.constructorid": [
+      1,
+      2
+    ],
+    "qualifying.number": [
+      22,
+      4
+    ],
+    "qualifying.position": [
+      1,
+      2
+    ],
+    "qualifying.q1": [
+      "1:26.572",
+      "1:26.103"
+    ],
+    "qualifying.q2": [
+      "1:25.187",
+      "1:25.315"
+    ],
+    "qualifying.q3": [
+      "1:26.714",
+      "1:26.869"
+    ],
+    "status.statusid": [
+      1,
+      2
+    ],
+    "status.status": [
+      "Finished",
+      "Disqualified"
+    ],
+    "results.resultid": [
+      1,
+      2
+    ],
+    "results.raceid": [
+      18,
+      19
+    ],
+    "results.driverid": [
+      1,
+      2
+    ],
+    "results.constructorid": [
+      1,
+      2
+    ],
+    "results.number": [
+      22,
+      3
+    ],
+    "results.grid": [
+      1,
+      5
+    ],
+    "results.position": [
+      1,
+      2
+    ],
+    "results.positiontext": [
+      "1",
+      "2"
+    ],
+    "results.positionorder": [
+      1,
+      2
+    ],
+    "results.points": [
+      10.0,
+      8.0
+    ],
+    "results.laps": [
+      58,
+      57
+    ],
+    "results.time": [
+      "1:34:50.616",
+      "+5.478"
+    ],
+    "results.milliseconds": [
+      5690616,
+      5696094
+    ],
+    "results.fastestlap": [
+      39,
+      41
+    ],
+    "results.rank": [
+      2,
+      3
+    ],
+    "results.fastestlaptime": [
+      "1:27.452",
+      "1:27.739"
+    ],
+    "results.fastestlapspeed": [
+      "218.300",
+      "217.586"
+    ],
+    "results.statusid": [
+      1,
+      11
+    ]
+  },
+  "california_schools": {
+    "frpm.cdscode": [
+      "01100170109835",
+      "01100170112607"
+    ],
+    "frpm.academic year": [
+      "2014-2015"
+    ],
+    "frpm.county code": [
+      "01",
+      "02"
+    ],
+    "frpm.district code": [
+      10017,
+      31609
+    ],
+    "frpm.school code": [
+      "0109835",
+      "0112607"
+    ],
+    "frpm.county name": [
+      "Alameda",
+      "Alpine"
+    ],
+    "frpm.district name": [
+      "Alameda County Office of Education",
+      "California School for the Blind (State S"
+    ],
+    "frpm.school name": [
+      "FAME Public Charter",
+      "Envision Academy for Arts & Technology"
+    ],
+    "frpm.district type": [
+      "County Office of Education (COE)",
+      "State Special Schools"
+    ],
+    "frpm.school type": [
+      "K-12 Schools (Public)",
+      "High Schools (Public)"
+    ],
+    "frpm.educational option type": [
+      "Traditional",
+      "Juvenile Court School"
+    ],
+    "frpm.nslp provision status": [
+      "Breakfast Provision 2",
+      "Provision 2"
+    ],
+    "frpm.charter school (y/n)": [
+      1,
+      0
+    ],
+    "frpm.charter school number": [
+      "0728",
+      "0811"
+    ],
+    "frpm.charter funding type": [
+      "Directly funded",
+      "Locally funded"
+    ],
+    "frpm.irc": [
+      1,
+      0
+    ],
+    "frpm.low grade": [
+      "K",
+      "9"
+    ],
+    "frpm.high grade": [
+      "12",
+      "8"
+    ],
+    "frpm.enrollment (k-12)": [
+      1087.0,
+      395.0
+    ],
+    "frpm.free meal count (k-12)": [
+      565.0,
+      186.0
+    ],
+    "frpm.percent (%) eligible free (k-12)": [
+      0.519779208831647,
+      0.470886075949367
+    ],
+    "frpm.frpm count (k-12)": [
+      715.0,
+      186.0
+    ],
+    "frpm.percent (%) eligible frpm (k-12)": [
+      0.657773689052438,
+      0.470886075949367
+    ],
+    "frpm.enrollment (ages 5-17)": [
+      1070.0,
+      376.0
+    ],
+    "frpm.free meal count (ages 5-17)": [
+      553.0,
+      182.0
+    ],
+    "frpm.percent (%) eligible free (ages 5-17)": [
+      0.516822429906542,
+      0.484042553191489
+    ],
+    "frpm.frpm count (ages 5-17)": [
+      702.0,
+      182.0
+    ],
+    "frpm.percent (%) eligible frpm (ages 5-17)": [
+      0.65607476635514,
+      0.484042553191489
+    ],
+    "frpm.2013-14 calpads fall 1 certification status": [
+      1
+    ],
+    "satscores.cds": [
+      "10101080000000",
+      "10101080109991"
+    ],
+    "satscores.rtype": [
+      "D",
+      "S"
+    ],
+    "satscores.sname": [
+      "FAME Public Charter",
+      "Envision Academy for Arts & Technology"
+    ],
+    "satscores.dname": [
+      "Alameda County Office of Education",
+      "Alameda Unified"
+    ],
+    "satscores.cname": [
+      "Alameda",
+      "Amador"
+    ],
+    "satscores.enroll12": [
+      398,
+      62
+    ],
+    "satscores.numtsttakr": [
+      88,
+      17
+    ],
+    "satscores.avgscrread": [
+      418,
+      503
+    ],
+    "satscores.avgscrmath": [
+      418,
+      546
+    ],
+    "satscores.avgscrwrite": [
+      417,
+      505
+    ],
+    "satscores.numge1500": [
+      14,
+      9
+    ],
+    "schools.cdscode": [
+      "01100170000000",
+      "01100170109835"
+    ],
+    "schools.ncesdist": [
+      "0691051",
+      "0600002"
+    ],
+    "schools.ncesschool": [
+      "10546",
+      "10947"
+    ],
+    "schools.statustype": [
+      "Active",
+      "Closed"
+    ],
+    "schools.county": [
+      "Alameda",
+      "Alpine"
+    ],
+    "schools.district": [
+      "Alameda County Office of Education",
+      "California School for the Blind (State S"
+    ],
+    "schools.school": [
+      "FAME Public Charter",
+      "Envision Academy for Arts & Technology"
+    ],
+    "schools.street": [
+      "313 West Winton Avenue",
+      "39899 Balentine Drive, Suite 335"
+    ],
+    "schools.streetabr": [
+      "313 West Winton Ave.",
+      "39899 Balentine Dr., Ste. 335"
+    ],
+    "schools.city": [
+      "Hayward",
+      "Newark"
+    ],
+    "schools.zip": [
+      "94544-1136",
+      "94560-5359"
+    ],
+    "schools.state": [
+      "CA"
+    ],
+    "schools.mailstreet": [
+      "313 West Winton Avenue",
+      "39899 Balentine Drive, Suite 335"
+    ],
+    "schools.mailstrabr": [
+      "313 West Winton Ave.",
+      "39899 Balentine Dr., Ste. 335"
+    ],
+    "schools.mailcity": [
+      "Hayward",
+      "Newark"
+    ],
+    "schools.mailzip": [
+      "94544-1136",
+      "94560-5359"
+    ],
+    "schools.mailstate": [
+      "CA"
+    ],
+    "schools.phone": [
+      "(510) 887-0152",
+      "(510) 596-8901"
+    ],
+    "schools.ext": [
+      "130",
+      "1240"
+    ],
+    "schools.website": [
+      "www.acoe.org",
+      "www.envisionacademy.org/"
+    ],
+    "schools.opendate": [
+      "2005-08-29",
+      "2006-08-28"
+    ],
+    "schools.closeddate": [
+      "2015-07-31",
+      "2015-06-30"
+    ],
+    "schools.charter": [
+      1,
+      0
+    ],
+    "schools.charternum": [
+      "0728",
+      "0811"
+    ],
+    "schools.fundingtype": [
+      "Directly funded",
+      "Locally funded"
+    ],
+    "schools.doc": [
+      "00",
+      "31"
+    ],
+    "schools.doctype": [
+      "County Office of Education (COE)",
+      "State Special Schools"
+    ],
+    "schools.soc": [
+      "65",
+      "66"
+    ],
+    "schools.soctype": [
+      "K-12 Schools (Public)",
+      "High Schools (Public)"
+    ],
+    "schools.edopscode": [
+      "TRAD",
+      "JUV"
+    ],
+    "schools.edopsname": [
+      "Traditional",
+      "Juvenile Court School"
+    ],
+    "schools.eilcode": [
+      "ELEMHIGH",
+      "HS"
+    ],
+    "schools.eilname": [
+      "Elementary-High Combination",
+      "High School"
+    ],
+    "schools.gsoffered": [
+      "K-12",
+      "9-12"
+    ],
+    "schools.gsserved": [
+      "K-12",
+      "9-12"
+    ],
+    "schools.virtual": [
+      "P",
+      "N"
+    ],
+    "schools.magnet": [
+      0,
+      1
+    ],
+    "schools.latitude": [
+      37.658212,
+      37.521436
+    ],
+    "schools.longitude": [
+      -122.09713,
+      -121.99391
+    ],
+    "schools.admfname1": [
+      "L Karen",
+      "Laura"
+    ],
+    "schools.admlname1": [
+      "Monroe",
+      "Robell"
+    ],
+    "schools.admemail1": [
+      "lkmonroe@acoe.org",
+      "laura@envisionacademy.org"
+    ],
+    "schools.admfname2": [
+      "Sau-Lim (Lance)",
+      "Jennifer"
+    ],
+    "schools.admlname2": [
+      "Tsang",
+      "Koelling"
+    ],
+    "schools.admemail2": [
+      "stsang@unityhigh.org",
+      "jkoelling@efcps.net"
+    ],
+    "schools.admfname3": [
+      "Drew",
+      "Irma"
+    ],
+    "schools.admlname3": [
+      "Sarratore",
+      "Munoz"
+    ],
+    "schools.admemail3": [
+      "dsarratore@vincentacademy.org",
+      "gmunoz@piedmont.k12.ca.us"
+    ],
+    "schools.lastupdate": [
+      "2015-06-23",
+      "2015-09-01"
+    ]
+  },
+  "card_games": {
+    "cards.id": [
+      41138,
+      1349
+    ],
+    "cards.artist": [
+      "Pete Venters",
+      "Volkan Baǵa"
+    ],
+    "cards.asciiname": [
+      "El-Hajjaj",
+      "Junun Efreet"
+    ],
+    "cards.availability": [
+      "mtgo,paper",
+      "paper"
+    ],
+    "cards.bordercolor": [
+      "black",
+      "white"
+    ],
+    "cards.cardkingdomfoilid": [
+      "123094",
+      "123095"
+    ],
+    "cards.cardkingdomid": [
+      "122719",
+      "122720"
+    ],
+    "cards.coloridentity": [
+      "W",
+      "B"
+    ],
+    "cards.colorindicator": [
+      "U",
+      "G"
+    ],
+    "cards.colors": [
+      "W",
+      "B"
+    ],
+    "cards.convertedmanacost": [
+      7.0,
+      5.0
+    ],
+    "cards.dueldeck": [
+      "a",
+      "b"
+    ],
+    "cards.edhrecrank": [
+      15650,
+      12702
+    ],
+    "cards.faceconvertedmanacost": [
+      4.0,
+      5.0
+    ],
+    "cards.facename": [
+      "Dusk",
+      "Dawn"
+    ],
+    "cards.flavorname": [
+      "Godzilla, King of the Monsters",
+      "King Caesar, Ancient Guardian"
+    ],
+    "cards.flavortext": [
+      "Every tear shed is a drop of immortality",
+      "The perfect antidote for a tightly packe"
+    ],
+    "cards.frameeffects": [
+      "legendary",
+      "nyxtouched"
+    ],
+    "cards.frameversion": [
+      "2003",
+      "1993"
+    ],
+    "cards.hand": [
+      "1",
+      "0"
+    ],
+    "cards.hasalternativedecklimit": [
+      0,
+      1
+    ],
+    "cards.hascontentwarning": [
+      0,
+      1
+    ],
+    "cards.hasfoil": [
+      0,
+      1
+    ],
+    "cards.hasnonfoil": [
+      1,
+      0
+    ],
+    "cards.isalternative": [
+      0,
+      1
+    ],
+    "cards.isfullart": [
+      0,
+      1
+    ],
+    "cards.isonlineonly": [
+      0,
+      1
+    ],
+    "cards.isoversized": [
+      0,
+      1
+    ],
+    "cards.ispromo": [
+      0,
+      1
+    ],
+    "cards.isreprint": [
+      1,
+      0
+    ],
+    "cards.isreserved": [
+      0,
+      1
+    ],
+    "cards.isstarter": [
+      0,
+      1
+    ],
+    "cards.isstoryspotlight": [
+      0,
+      1
+    ],
+    "cards.istextless": [
+      0,
+      1
+    ],
+    "cards.istimeshifted": [
+      0,
+      1
+    ],
+    "cards.keywords": [
+      "First strike",
+      "Flying"
+    ],
+    "cards.layout": [
+      "normal",
+      "aftermath"
+    ],
+    "cards.leadershipskills": [
+      "{'brawl': False, 'commander': True, 'oat",
+      "{'brawl': False, 'commander': False, 'oa"
+    ],
+    "cards.life": [
+      "-5",
+      "-1"
+    ],
+    "cards.loyalty": [
+      "6",
+      "3"
+    ],
+    "cards.manacost": [
+      "{5}{W}{W}",
+      "{4}{W}"
+    ],
+    "cards.mcmid": [
+      "16165",
+      "16166"
+    ],
+    "cards.mcmmetaid": [
+      "156",
+      "176"
+    ],
+    "cards.mtgarenaid": [
+      "74983",
+      "74986"
+    ],
+    "cards.mtgjsonv4id": [
+      "ad41be73-582f-58ed-abd4-a88c1f616ac3",
+      "9eb2e54c-a12b-5e88-a9c0-d8c84c52d59c"
+    ],
+    "cards.mtgofoilid": [
+      "27501",
+      "26993"
+    ],
+    "cards.mtgoid": [
+      "27500",
+      "26992"
+    ],
+    "cards.multiverseid": [
+      "130550",
+      "129465"
+    ],
+    "cards.name": [
+      "Ancestor's Chosen",
+      "Angel of Mercy"
+    ],
+    "cards.number": [
+      "1",
+      "2"
+    ],
+    "cards.originalreleasedate": [
+      "2012/12/1",
+      "2006/12/1"
+    ],
+    "cards.originaltext": [
+      "First strike (This creature deals combat",
+      "Flying (This creature can't be blocked e"
+    ],
+    "cards.originaltype": [
+      "Creature - Human Cleric",
+      "Creature - Angel"
+    ],
+    "cards.otherfaceids": [
+      "87f0062a-8321-5c16-960e-a12ce1df5839",
+      "f9f10d34-071c-57a6-b58c-7553abad5c20"
+    ],
+    "cards.power": [
+      "4",
+      "3"
+    ],
+    "cards.printings": [
+      "10E,JUD,UMA",
+      "10E,8ED,9ED,DDC,DVD,IMA,INV,JMP,MB1,P02,"
+    ],
+    "cards.promotypes": [
+      "boxtopper,boosterfun",
+      "boosterfun"
+    ],
+    "cards.purchaseurls": [
+      "{'cardKingdom': 'https://mtgjson.com/lin",
+      "{'cardKingdom': 'https://mtgjson.com/lin"
+    ],
+    "cards.rarity": [
+      "uncommon",
+      "common"
+    ],
+    "cards.scryfallid": [
+      "7a5cd03c-4227-4551-aa4b-7d119f0468b5",
+      "8f7980d4-da43-4d6d-ad16-14b8a34ae91d"
+    ],
+    "cards.scryfallillustrationid": [
+      "be2f7173-c8b7-4172-a388-9b2c6b3c16e5",
+      "e4d6c53f-e936-4be8-8b70-47c2be863b20"
+    ],
+    "cards.scryfalloracleid": [
+      "fc2ccab7-cab1-4463-b73d-898070136d74",
+      "a2daaf32-dbfe-4618-892e-0da24f63a44a"
+    ],
+    "cards.setcode": [
+      "10E",
+      "2ED"
+    ],
+    "cards.side": [
+      "a",
+      "b"
+    ],
+    "cards.subtypes": [
+      "Human,Cleric",
+      "Angel"
+    ],
+    "cards.supertypes": [
+      "Legendary",
+      "Basic"
+    ],
+    "cards.tcgplayerproductid": [
+      "15032",
+      "15033"
+    ],
+    "cards.text": [
+      "First strike (This creature deals combat",
+      "Flying\nWhen Angel of Mercy enters the ba"
+    ],
+    "cards.toughness": [
+      "4",
+      "3"
+    ],
+    "cards.type": [
+      "Creature — Human Cleric",
+      "Creature — Angel"
+    ],
+    "cards.types": [
+      "Creature",
+      "Instant"
+    ],
+    "cards.uuid": [
+      "00010d56-fe38-5e35-8aed-518019aa36a5",
+      "0001e0d0-2dcd-5640-aadc-a84765cf5fc9"
+    ],
+    "cards.variations": [
+      "b7c19924-b4bf-56fc-aa73-f586e940bd42",
+      "8fd4e2eb-3eb4-50ea-856b-ef638fa47f8a"
+    ],
+    "cards.watermark": [
+      "set (HOU)",
+      "set (LGN)"
+    ],
+    "foreign_data.id": [
+      1,
+      2
+    ],
+    "foreign_data.flavortext": [
+      "„Es ist der Wille aller, und meine Hand,",
+      "\"La voluntad de todos, realizada por mi "
+    ],
+    "foreign_data.language": [
+      "German",
+      "Spanish"
+    ],
+    "foreign_data.multiverseid": [
+      148411,
+      150317
+    ],
+    "foreign_data.name": [
+      "Ausgewählter der Ahnfrau",
+      "Elegido de la Antepasada"
+    ],
+    "foreign_data.text": [
+      "Erstschlag (Diese Kreatur fügt Kampfscha",
+      "Daña primero. (Esta criatura hace daño d"
+    ],
+    "foreign_data.type": [
+      "Kreatur — Mensch, Kleriker",
+      "Criatura — Clérigo humano"
+    ],
+    "foreign_data.uuid": [
+      "5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c",
+      "57aaebc1-850c-503d-9f6e-bb8d00d8bf7c"
+    ],
+    "legalities.id": [
+      1,
+      2
+    ],
+    "legalities.format": [
+      "commander",
+      "duel"
+    ],
+    "legalities.status": [
+      "Legal",
+      "Banned"
+    ],
+    "legalities.uuid": [
+      "5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c",
+      "57aaebc1-850c-503d-9f6e-bb8d00d8bf7c"
+    ],
+    "sets.id": [
+      1,
+      2
+    ],
+    "sets.basesetsize": [
+      383,
+      302
+    ],
+    "sets.block": [
+      "Core Set",
+      "Mirrodin"
+    ],
+    "sets.booster": [
+      "{'default': {'boosters': [{'contents': {",
+      "{'default': {'boosters': [{'contents': {"
+    ],
+    "sets.code": [
+      "10E",
+      "2ED"
+    ],
+    "sets.isfoilonly": [
+      0,
+      1
+    ],
+    "sets.isforeignonly": [
+      0,
+      1
+    ],
+    "sets.isnonfoilonly": [
+      0,
+      1
+    ],
+    "sets.isonlineonly": [
+      0,
+      1
+    ],
+    "sets.ispartialpreview": [
+      0,
+      1
+    ],
+    "sets.keyrunecode": [
+      "10E",
+      "2ED"
+    ],
+    "sets.mcmid": [
+      74,
+      3204
+    ],
+    "sets.mcmidextras": [
+      3209,
+      3459
+    ],
+    "sets.mcmname": [
+      "Tenth Edition",
+      "Double Masters"
+    ],
+    "sets.mtgocode": [
+      "10E",
+      "2XM"
+    ],
+    "sets.name": [
+      "Tenth Edition",
+      "Unlimited Edition"
+    ],
+    "sets.parentcode": [
+      "JMP",
+      "MH1"
+    ],
+    "sets.releasedate": [
+      "2007-07-13",
+      "1993-12-01"
+    ],
+    "sets.tcgplayergroupid": [
+      1,
+      115
+    ],
+    "sets.totalsetsize": [
+      508,
+      302
+    ],
+    "sets.type": [
+      "core",
+      "masters"
+    ],
+    "set_translations.id": [
+      1,
+      2
+    ],
+    "set_translations.language": [
+      "Chinese Simplified",
+      "Chinese Traditional"
+    ],
+    "set_translations.setcode": [
+      "10E",
+      "4ED"
+    ],
+    "set_translations.translation": [
+      "核心系列第十版",
+      "Dixième édition"
+    ],
+    "rulings.id": [
+      1,
+      2
+    ],
+    "rulings.date": [
+      "2007-07-15",
+      "2007-02-01"
+    ],
+    "rulings.text": [
+      "You draw the card when Bandage resolves,",
+      "If you double a negative life total, you"
+    ],
+    "rulings.uuid": [
+      "6d268c95-c176-5766-9a46-c14f739aba1c",
+      "56f4935b-f6c5-59b9-88bf-9bcce20247ce"
+    ]
+  },
+  "european_football_2": {
+    "player_attributes.id": [
+      1,
+      2
+    ],
+    "player_attributes.player_fifa_api_id": [
+      218353,
+      189615
+    ],
+    "player_attributes.player_api_id": [
+      505942,
+      155782
+    ],
+    "player_attributes.date": [
+      "2016-02-18 00:00:00",
+      "2015-11-19 00:00:00"
+    ],
+    "player_attributes.overall_rating": [
+      67,
+      62
+    ],
+    "player_attributes.potential": [
+      71,
+      66
+    ],
+    "player_attributes.preferred_foot": [
+      "right",
+      "left"
+    ],
+    "player_attributes.attacking_work_rate": [
+      "medium",
+      "high"
+    ],
+    "player_attributes.defensive_work_rate": [
+      "medium",
+      "high"
+    ],
+    "player_attributes.crossing": [
+      49,
+      48
+    ],
+    "player_attributes.finishing": [
+      44,
+      43
+    ],
+    "player_attributes.heading_accuracy": [
+      71,
+      70
+    ],
+    "player_attributes.short_passing": [
+      61,
+      60
+    ],
+    "player_attributes.volleys": [
+      44,
+      43
+    ],
+    "player_attributes.dribbling": [
+      51,
+      50
+    ],
+    "player_attributes.curve": [
+      45,
+      44
+    ],
+    "player_attributes.free_kick_accuracy": [
+      39,
+      38
+    ],
+    "player_attributes.long_passing": [
+      64,
+      63
+    ],
+    "player_attributes.ball_control": [
+      49,
+      48
+    ],
+    "player_attributes.acceleration": [
+      60,
+      79
+    ],
+    "player_attributes.sprint_speed": [
+      64,
+      78
+    ],
+    "player_attributes.agility": [
+      59,
+      78
+    ],
+    "player_attributes.reactions": [
+      47,
+      46
+    ],
+    "player_attributes.balance": [
+      65,
+      90
+    ],
+    "player_attributes.shot_power": [
+      55,
+      54
+    ],
+    "player_attributes.jumping": [
+      58,
+      85
+    ],
+    "player_attributes.stamina": [
+      54,
+      79
+    ],
+    "player_attributes.strength": [
+      76,
+      56
+    ],
+    "player_attributes.long_shots": [
+      35,
+      34
+    ],
+    "player_attributes.aggression": [
+      71,
+      63
+    ],
+    "player_attributes.interceptions": [
+      70,
+      41
+    ],
+    "player_attributes.positioning": [
+      45,
+      44
+    ],
+    "player_attributes.vision": [
+      54,
+      53
+    ],
+    "player_attributes.penalties": [
+      48,
+      47
+    ],
+    "player_attributes.marking": [
+      65,
+      62
+    ],
+    "player_attributes.standing_tackle": [
+      69,
+      66
+    ],
+    "player_attributes.sliding_tackle": [
+      69,
+      66
+    ],
+    "player_attributes.gk_diving": [
+      6,
+      5
+    ],
+    "player_attributes.gk_handling": [
+      11,
+      10
+    ],
+    "player_attributes.gk_kicking": [
+      10,
+      9
+    ],
+    "player_attributes.gk_positioning": [
+      8,
+      7
+    ],
+    "player_attributes.gk_reflexes": [
+      8,
+      7
+    ],
+    "player.id": [
+      3879,
+      401
+    ],
+    "player.player_api_id": [
+      2625,
+      2752
+    ],
+    "player.player_name": [
+      "Aaron Appindangoye",
+      "Aaron Cresswell"
+    ],
+    "player.player_fifa_api_id": [
+      2,
+      6
+    ],
+    "player.birthday": [
+      "1992-02-29 00:00:00",
+      "1989-12-15 00:00:00"
+    ],
+    "player.height": [
+      182.88,
+      170.18
+    ],
+    "player.weight": [
+      187,
+      146
+    ],
+    "league.id": [
+      1,
+      1729
+    ],
+    "league.country_id": [
+      1,
+      1729
+    ],
+    "league.name": [
+      "Belgium Jupiler League",
+      "England Premier League"
+    ],
+    "country.id": [
+      1,
+      1729
+    ],
+    "country.name": [
+      "Belgium",
+      "England"
+    ],
+    "team.id": [
+      31446,
+      1513
+    ],
+    "team.team_api_id": [
+      1601,
+      1773
+    ],
+    "team.team_fifa_api_id": [
+      673,
+      675
+    ],
+    "team.team_long_name": [
+      "KRC Genk",
+      "Beerschot AC"
+    ],
+    "team.team_short_name": [
+      "GEN",
+      "BAC"
+    ],
+    "team_attributes.id": [
+      1,
+      2
+    ],
+    "team_attributes.team_fifa_api_id": [
+      434,
+      77
+    ],
+    "team_attributes.team_api_id": [
+      9930,
+      8485
+    ],
+    "team_attributes.date": [
+      "2010-02-22 00:00:00",
+      "2014-09-19 00:00:00"
+    ],
+    "team_attributes.buildupplayspeed": [
+      60,
+      52
+    ],
+    "team_attributes.buildupplayspeedclass": [
+      "Balanced",
+      "Fast"
+    ],
+    "team_attributes.buildupplaydribbling": [
+      48,
+      41
+    ],
+    "team_attributes.buildupplaydribblingclass": [
+      "Little",
+      "Normal"
+    ],
+    "team_attributes.buildupplaypassing": [
+      50,
+      56
+    ],
+    "team_attributes.buildupplaypassingclass": [
+      "Mixed",
+      "Long"
+    ],
+    "team_attributes.buildupplaypositioningclass": [
+      "Organised",
+      "Free Form"
+    ],
+    "team_attributes.chancecreationpassing": [
+      60,
+      54
+    ],
+    "team_attributes.chancecreationpassingclass": [
+      "Normal",
+      "Risky"
+    ],
+    "team_attributes.chancecreationcrossing": [
+      65,
+      63
+    ],
+    "team_attributes.chancecreationcrossingclass": [
+      "Normal",
+      "Lots"
+    ],
+    "team_attributes.chancecreationshooting": [
+      55,
+      64
+    ],
+    "team_attributes.chancecreationshootingclass": [
+      "Normal",
+      "Lots"
+    ],
+    "team_attributes.chancecreationpositioningclass": [
+      "Organised",
+      "Free Form"
+    ],
+    "team_attributes.defencepressure": [
+      50,
+      47
+    ],
+    "team_attributes.defencepressureclass": [
+      "Medium",
+      "Deep"
+    ],
+    "team_attributes.defenceaggression": [
+      55,
+      44
+    ],
+    "team_attributes.defenceaggressionclass": [
+      "Press",
+      "Double"
+    ],
+    "team_attributes.defenceteamwidth": [
+      45,
+      54
+    ],
+    "team_attributes.defenceteamwidthclass": [
+      "Normal",
+      "Wide"
+    ],
+    "team_attributes.defencedefenderlineclass": [
+      "Cover",
+      "Offside Trap"
+    ],
+    "match.id": [
+      4769,
+      4770
+    ],
+    "match.country_id": [
+      1,
+      1729
+    ],
+    "match.league_id": [
+      1,
+      1729
+    ],
+    "match.season": [
+      "2008/2009",
+      "2009/2010"
+    ],
+    "match.stage": [
+      1,
+      10
+    ],
+    "match.date": [
+      "2008-08-17 00:00:00",
+      "2008-08-16 00:00:00"
+    ],
+    "match.match_api_id": [
+      483129,
+      483130
+    ],
+    "match.home_team_api_id": [
+      9987,
+      10000
+    ],
+    "match.away_team_api_id": [
+      9993,
+      9994
+    ],
+    "match.home_team_goal": [
+      1,
+      0
+    ],
+    "match.away_team_goal": [
+      1,
+      0
+    ],
+    "match.home_player_x1": [
+      1,
+      2
+    ],
+    "match.home_player_x2": [
+      2,
+      4
+    ],
+    "match.home_player_x3": [
+      4,
+      6
+    ],
+    "match.home_player_x4": [
+      6,
+      8
+    ],
+    "match.home_player_x5": [
+      8,
+      6
+    ],
+    "match.home_player_x6": [
+      2,
+      6
+    ],
+    "match.home_player_x7": [
+      4,
+      8
+    ],
+    "match.home_player_x8": [
+      6,
+      2
+    ],
+    "match.home_player_x9": [
+      8,
+      4
+    ],
+    "match.home_player_x10": [
+      4,
+      6
+    ],
+    "match.home_player_x11": [
+      6,
+      4
+    ],
+    "match.away_player_x1": [
+      1,
+      2
+    ],
+    "match.away_player_x2": [
+      2,
+      4
+    ],
+    "match.away_player_x3": [
+      4,
+      6
+    ],
+    "match.away_player_x4": [
+      6,
+      8
+    ],
+    "match.away_player_x5": [
+      8,
+      6
+    ],
+    "match.away_player_x6": [
+      2,
+      4
+    ],
+    "match.away_player_x7": [
+      4,
+      6
+    ],
+    "match.away_player_x8": [
+      6,
+      8
+    ],
+    "match.away_player_x9": [
+      8,
+      2
+    ],
+    "match.away_player_x10": [
+      4,
+      6
+    ],
+    "match.away_player_x11": [
+      6,
+      4
+    ],
+    "match.home_player_y1": [
+      1,
+      3
+    ],
+    "match.home_player_y2": [
+      3,
+      0
+    ],
+    "match.home_player_y3": [
+      3,
+      5
+    ],
+    "match.home_player_y4": [
+      3,
+      5
+    ],
+    "match.home_player_y5": [
+      3,
+      7
+    ],
+    "match.home_player_y6": [
+      7,
+      3
+    ],
+    "match.home_player_y7": [
+      7,
+      6
+    ],
+    "match.home_player_y8": [
+      7,
+      8
+    ],
+    "match.home_player_y9": [
+      7,
+      10
+    ],
+    "match.home_player_y10": [
+      10,
+      7
+    ],
+    "match.home_player_y11": [
+      10,
+      11
+    ],
+    "match.away_player_y1": [
+      1,
+      3
+    ],
+    "match.away_player_y2": [
+      3
+    ],
+    "match.away_player_y3": [
+      3,
+      7
+    ],
+    "match.away_player_y4": [
+      3,
+      5
+    ],
+    "match.away_player_y5": [
+      3,
+      7
+    ],
+    "match.away_player_y6": [
+      7,
+      3
+    ],
+    "match.away_player_y7": [
+      7,
+      6
+    ],
+    "match.away_player_y8": [
+      7,
+      8
+    ],
+    "match.away_player_y9": [
+      7,
+      10
+    ],
+    "match.away_player_y10": [
+      10,
+      7
+    ],
+    "match.away_player_y11": [
+      10,
+      11
+    ],
+    "match.home_player_1": [
+      39890,
+      38327
+    ],
+    "match.home_player_2": [
+      67950,
+      39580
+    ],
+    "match.home_player_3": [
+      38788,
+      67958
+    ],
+    "match.home_player_4": [
+      38312,
+      67959
+    ],
+    "match.home_player_5": [
+      26235,
+      37112
+    ],
+    "match.home_player_6": [
+      36393,
+      46004
+    ],
+    "match.home_player_7": [
+      148286,
+      164732
+    ],
+    "match.home_player_8": [
+      67898,
+      39631
+    ],
+    "match.home_player_9": [
+      26916,
+      164352
+    ],
+    "match.home_player_10": [
+      38801,
+      38423
+    ],
+    "match.home_player_11": [
+      94289,
+      26502
+    ],
+    "match.away_player_1": [
+      34480,
+      37937
+    ],
+    "match.away_player_2": [
+      38388,
+      38293
+    ],
+    "match.away_player_3": [
+      26458,
+      148313
+    ],
+    "match.away_player_4": [
+      13423,
+      104411
+    ],
+    "match.away_player_5": [
+      38389,
+      148314
+    ],
+    "match.away_player_6": [
+      38798,
+      37202
+    ],
+    "match.away_player_7": [
+      30949,
+      43158
+    ],
+    "match.away_player_8": [
+      38253,
+      9307
+    ],
+    "match.away_player_9": [
+      106013,
+      42153
+    ],
+    "match.away_player_10": [
+      38383,
+      32690
+    ],
+    "match.away_player_11": [
+      46552,
+      38782
+    ],
+    "match.goal": [
+      "<goal><value><comment>n</comment><stats>",
+      "<goal><value><comment>n</comment><stats>"
+    ],
+    "match.shoton": [
+      "<shoton><value><stats><blocked>1</blocke",
+      "<shoton><value><stats><blocked>1</blocke"
+    ],
+    "match.shotoff": [
+      "<shotoff><value><stats><shotoff>1</shoto",
+      "<shotoff><value><stats><shotoff>1</shoto"
+    ],
+    "match.foulcommit": [
+      "<foulcommit><value><stats><foulscommitte",
+      "<foulcommit><value><stats><foulscommitte"
+    ],
+    "match.card": [
+      "<card><value><comment>y</comment><stats>",
+      "<card />"
+    ],
+    "match.cross": [
+      "<cross><value><stats><crosses>1</crosses",
+      "<cross><value><stats><crosses>1</crosses"
+    ],
+    "match.corner": [
+      "<corner><value><stats><corners>1</corner",
+      "<corner><value><stats><corners>1</corner"
+    ],
+    "match.possession": [
+      "<possession><value><comment>56</comment>",
+      "<possession><value><comment>65</comment>"
+    ],
+    "match.b365h": [
+      1.73,
+      1.95
+    ],
+    "match.b365d": [
+      3.4,
+      3.2
+    ],
+    "match.b365a": [
+      5.0,
+      3.6
+    ],
+    "match.bwh": [
+      1.75,
+      1.8
+    ],
+    "match.bwd": [
+      3.35,
+      3.3
+    ],
+    "match.bwa": [
+      4.2,
+      3.95
+    ],
+    "match.iwh": [
+      1.85,
+      1.9
+    ],
+    "match.iwd": [
+      3.2,
+      3.1
+    ],
+    "match.iwa": [
+      3.5,
+      2.3
+    ],
+    "match.lbh": [
+      1.8,
+      1.9
+    ],
+    "match.lbd": [
+      3.3,
+      3.2
+    ],
+    "match.lba": [
+      3.75,
+      3.5
+    ],
+    "match.psh": [
+      5.1,
+      2.48
+    ],
+    "match.psd": [
+      3.82,
+      3.52
+    ],
+    "match.psa": [
+      1.76,
+      2.96
+    ],
+    "match.whh": [
+      1.7,
+      1.83
+    ],
+    "match.whd": [
+      3.3,
+      3.25
+    ],
+    "match.wha": [
+      4.33,
+      3.6
+    ],
+    "match.sjh": [
+      1.9,
+      1.95
+    ],
+    "match.sjd": [
+      3.3,
+      4.0
+    ],
+    "match.sja": [
+      4.0,
+      3.8
+    ],
+    "match.vch": [
+      1.65,
+      2.0
+    ],
+    "match.vcd": [
+      3.4,
+      3.25
+    ],
+    "match.vca": [
+      4.5,
+      3.25
+    ],
+    "match.gbh": [
+      1.78,
+      1.85
+    ],
+    "match.gbd": [
+      3.25,
+      3.2
+    ],
+    "match.gba": [
+      4.0,
+      3.75
+    ],
+    "match.bsh": [
+      1.73,
+      1.91
+    ],
+    "match.bsd": [
+      3.4,
+      3.25
+    ],
+    "match.bsa": [
+      4.2,
+      3.6
+    ]
+  },
+  "thrombosis_prediction": {
+    "examination.id": [
+      14872,
+      48473
+    ],
+    "examination.examination date": [
+      "1997-05-27",
+      "1992-12-21"
+    ],
+    "examination.acl igg": [
+      1.3,
+      4.3
+    ],
+    "examination.acl igm": [
+      1.6,
+      4.6
+    ],
+    "examination.ana": [
+      256,
+      0
+    ],
+    "examination.ana pattern": [
+      "P",
+      "P,S"
+    ],
+    "examination.acl iga": [
+      0,
+      3
+    ],
+    "examination.diagnosis": [
+      "MCTD, AMI",
+      "SLE"
+    ],
+    "examination.kct": [
+      "-",
+      "+"
+    ],
+    "examination.rvvt": [
+      "-",
+      "+"
+    ],
+    "examination.lac": [
+      "-",
+      "+"
+    ],
+    "examination.symptoms": [
+      "AMI",
+      "CNS lupus"
+    ],
+    "examination.thrombosis": [
+      1,
+      0
+    ],
+    "patient.id": [
+      2110,
+      11408
+    ],
+    "patient.sex": [
+      "F",
+      "M"
+    ],
+    "patient.birthday": [
+      "1934-02-13",
+      "1937-05-02"
+    ],
+    "patient.description": [
+      "1994-02-14",
+      "1996-12-01"
+    ],
+    "patient.first date": [
+      "1993-02-10",
+      "1973-01-01"
+    ],
+    "patient.admission": [
+      "+",
+      "-"
+    ],
+    "patient.diagnosis": [
+      "RA susp.",
+      "PSS"
+    ],
+    "laboratory.id": [
+      27654,
+      30609
+    ],
+    "laboratory.date": [
+      "1991-09-11",
+      "1991-09-17"
+    ],
+    "laboratory.got": [
+      34,
+      29
+    ],
+    "laboratory.gpt": [
+      36,
+      31
+    ],
+    "laboratory.ldh": [
+      567,
+      579
+    ],
+    "laboratory.alp": [
+      166,
+      154
+    ],
+    "laboratory.tp": [
+      4.5,
+      5.1
+    ],
+    "laboratory.alb": [
+      3.3,
+      3.4
+    ],
+    "laboratory.ua": [
+      3.8,
+      4.2
+    ],
+    "laboratory.un": [
+      29,
+      36
+    ],
+    "laboratory.cre": [
+      0.8,
+      0.9
+    ],
+    "laboratory.t-bil": [
+      0.3,
+      0.2
+    ],
+    "laboratory.t-cho": [
+      165,
+      134
+    ],
+    "laboratory.tg": [
+      185,
+      205
+    ],
+    "laboratory.cpk": [
+      9,
+      10
+    ],
+    "laboratory.glu": [
+      88,
+      134
+    ],
+    "laboratory.wbc": [
+      5.0,
+      10.4
+    ],
+    "laboratory.rbc": [
+      2.6,
+      2.9
+    ],
+    "laboratory.hgb": [
+      6.4,
+      6.7
+    ],
+    "laboratory.hct": [
+      20.3,
+      21.6
+    ],
+    "laboratory.plt": [
+      227,
+      242
+    ],
+    "laboratory.pt": [
+      11.3,
+      12.0
+    ],
+    "laboratory.aptt": [
+      108,
+      84
+    ],
+    "laboratory.fg": [
+      27.0,
+      38.6
+    ],
+    "laboratory.pic": [
+      320,
+      513
+    ],
+    "laboratory.tat": [
+      77,
+      108
+    ],
+    "laboratory.tat2": [
+      113,
+      88
+    ],
+    "laboratory.u-pro": [
+      "-",
+      "0"
+    ],
+    "laboratory.igg": [
+      339,
+      771
+    ],
+    "laboratory.iga": [
+      145,
+      188
+    ],
+    "laboratory.igm": [
+      46,
+      132
+    ],
+    "laboratory.crp": [
+      "0.6",
+      "2.7"
+    ],
+    "laboratory.ra": [
+      "-",
+      "+"
+    ],
+    "laboratory.rf": [
+      "<20.5",
+      "<20.8"
+    ],
+    "laboratory.c3": [
+      30,
+      82
+    ],
+    "laboratory.c4": [
+      14,
+      26
+    ],
+    "laboratory.rnp": [
+      "0",
+      "1"
+    ],
+    "laboratory.sm": [
+      "0",
+      "1"
+    ],
+    "laboratory.sc170": [
+      "16",
+      "1"
+    ],
+    "laboratory.ssa": [
+      "0",
+      "negative"
+    ],
+    "laboratory.ssb": [
+      "0",
+      "negative"
+    ],
+    "laboratory.centromea": [
+      "0",
+      "negative"
+    ],
+    "laboratory.dna": [
+      "41.9",
+      "18"
+    ]
+  },
+  "toxicology": {
+    "atom.atom_id": [
+      "TR000_1",
+      "TR000_2"
+    ],
+    "atom.molecule_id": [
+      "TR000",
+      "TR001"
+    ],
+    "atom.element": [
+      "cl",
+      "c"
+    ],
+    "bond.bond_id": [
+      "TR000_1_2",
+      "TR000_2_3"
+    ],
+    "bond.molecule_id": [
+      "TR000",
+      "TR001"
+    ],
+    "bond.bond_type": [
+      "-",
+      "="
+    ],
+    "connected.atom_id": [
+      "TR000_1",
+      "TR000_2"
+    ],
+    "connected.atom_id2": [
+      "TR000_2",
+      "TR000_1"
+    ],
+    "connected.bond_id": [
+      "TR000_1_2",
+      "TR000_2_3"
+    ],
+    "molecule.molecule_id": [
+      "TR000",
+      "TR001"
+    ],
+    "molecule.label": [
+      "+",
+      "-"
+    ]
+  },
+  "student_club": {
+    "event.event_id": [
+      "rec0Si5cQ4rJRVzd6",
+      "rec0akZnLLpGUloLH"
+    ],
+    "event.event_name": [
+      "March Meeting",
+      "Officers meeting - January"
+    ],
+    "event.event_date": [
+      "2020-03-10T12:00:00",
+      "2020-01-14T09:30:00"
+    ],
+    "event.type": [
+      "Meeting",
+      "Election"
+    ],
+    "event.notes": [
+      "All active members can vote for new offi",
+      "Attend Women's soccer game as a group."
+    ],
+    "event.location": [
+      "MU 215",
+      "Campus Soccer/Lacrosse stadium"
+    ],
+    "event.status": [
+      "Open",
+      "Planning"
+    ],
+    "major.major_id": [
+      "rec06DF6vZ1CyPKpc",
+      "rec09LedkREyskCNv"
+    ],
+    "major.major_name": [
+      "Outdoor Product Design and Development",
+      "Agricultural Communication"
+    ],
+    "major.department": [
+      "School of Applied Sciences, Technology a",
+      "Watershed Sciences Department"
+    ],
+    "major.college": [
+      "College of Agriculture and Applied Scien",
+      "College of Natural Resources"
+    ],
+    "zip_code.zip_code": [
+      501,
+      544
+    ],
+    "zip_code.type": [
+      "Unique",
+      "Standard"
+    ],
+    "zip_code.city": [
+      "Holtsville",
+      "Adjuntas"
+    ],
+    "zip_code.county": [
+      "Suffolk County",
+      "Adjuntas Municipio"
+    ],
+    "zip_code.state": [
+      "New York",
+      "Puerto Rico"
+    ],
+    "zip_code.short_state": [
+      "NY",
+      "PR"
+    ],
+    "attendance.link_to_event": [
+      "rec2N69DMcrqN9PJC",
+      "rec5XDvJLyxDsGZWc"
+    ],
+    "attendance.link_to_member": [
+      "recD078PnS3x2doBe",
+      "recP6DJPyi5donvXL"
+    ],
+    "budget.budget_id": [
+      "rec0QmEc3cSQFQ6V2",
+      "rec1bG6HSft7XIvTP"
+    ],
+    "budget.category": [
+      "Advertisement",
+      "Food"
+    ],
+    "budget.spent": [
+      67.81,
+      121.14
+    ],
+    "budget.remaining": [
+      7.19,
+      28.86
+    ],
+    "budget.amount": [
+      75,
+      150
+    ],
+    "budget.event_status": [
+      "Closed",
+      "Open"
+    ],
+    "budget.link_to_event": [
+      "recI43CzsZ0Q625ma",
+      "recggMW2eyCYceNcy"
+    ],
+    "expense.expense_id": [
+      "rec017x6R3hQqkLAo",
+      "rec1nIjoZKTYayqZ6"
+    ],
+    "expense.expense_description": [
+      "Post Cards, Posters",
+      "Water, Cookies"
+    ],
+    "expense.expense_date": [
+      "2019-08-20",
+      "2019-10-08"
+    ],
+    "expense.cost": [
+      122.06,
+      20.2
+    ],
+    "expense.approved": [
+      "true"
+    ],
+    "expense.link_to_member": [
+      "rec4BLdZHS2Blfp4v",
+      "recro8T1MPMwRadVH"
+    ],
+    "expense.link_to_budget": [
+      "recvKTAWAFKkVNnXQ",
+      "recy8KY5bUdzF81vv"
+    ],
+    "income.income_id": [
+      "rec0s9ZrO15zhzUeE",
+      "rec7f5XMQZexgtQJo"
+    ],
+    "income.date_received": [
+      "2019-10-17",
+      "2019-09-04"
+    ],
+    "income.amount": [
+      50,
+      200
+    ],
+    "income.source": [
+      "Dues",
+      "Fundraising"
+    ],
+    "income.notes": [
+      "Secured donations to help pay for speake",
+      "Annual funding from Student Government."
+    ],
+    "income.link_to_member": [
+      "reccW7q1KkhSKZsea",
+      "recTjHY5xXhvkCdVT"
+    ],
+    "member.member_id": [
+      "rec1x5zBFIqoOuPW8",
+      "rec280Sk7o31iG0Tx"
+    ],
+    "member.first_name": [
+      "Angela",
+      "Grant"
+    ],
+    "member.last_name": [
+      "Sanders",
+      "Gilmour"
+    ],
+    "member.email": [
+      "angela.sanders@lpu.edu",
+      "grant.gilmour@lpu.edu"
+    ],
+    "member.position": [
+      "Member",
+      "Inactive"
+    ],
+    "member.t_shirt_size": [
+      "Medium",
+      "X-Large"
+    ],
+    "member.phone": [
+      "(651) 928-4507",
+      "403-555-1310"
+    ],
+    "member.zip": [
+      55108,
+      29440
+    ],
+    "member.link_to_major": [
+      "recxK3MHQFbR9J5uO",
+      "rec7BxKpjJ7bNph3O"
+    ]
+  },
+  "superhero": {
+    "alignment.id": [
+      1,
+      2
+    ],
+    "alignment.alignment": [
+      "Good",
+      "Bad"
+    ],
+    "attribute.id": [
+      1,
+      2
+    ],
+    "attribute.attribute_name": [
+      "Intelligence",
+      "Strength"
+    ],
+    "colour.id": [
+      1,
+      2
+    ],
+    "colour.colour": [
+      "No Colour",
+      "Amber"
+    ],
+    "gender.id": [
+      1,
+      2
+    ],
+    "gender.gender": [
+      "Male",
+      "Female"
+    ],
+    "publisher.id": [
+      1,
+      2
+    ],
+    "publisher.publisher_name": [
+      "ABC Studios",
+      "Dark Horse Comics"
+    ],
+    "race.id": [
+      1,
+      2
+    ],
+    "race.race": [
+      "-",
+      "Alien"
+    ],
+    "superhero.id": [
+      1,
+      2
+    ],
+    "superhero.superhero_name": [
+      "3-D Man",
+      "A-Bomb"
+    ],
+    "superhero.full_name": [
+      "Charles Chandler",
+      "Richard Milhouse Jones"
+    ],
+    "superhero.gender_id": [
+      1,
+      2
+    ],
+    "superhero.eye_colour_id": [
+      9,
+      33
+    ],
+    "superhero.hair_colour_id": [
+      13,
+      1
+    ],
+    "superhero.skin_colour_id": [
+      1,
+      7
+    ],
+    "superhero.race_id": [
+      1,
+      24
+    ],
+    "superhero.publisher_id": [
+      13,
+      3
+    ],
+    "superhero.alignment_id": [
+      1,
+      2
+    ],
+    "superhero.height_cm": [
+      188,
+      203
+    ],
+    "superhero.weight_kg": [
+      90,
+      441
+    ],
+    "hero_attribute.hero_id": [
+      1,
+      2
+    ],
+    "hero_attribute.attribute_id": [
+      1,
+      2
+    ],
+    "hero_attribute.attribute_value": [
+      80,
+      75
+    ],
+    "superpower.id": [
+      1,
+      2
+    ],
+    "superpower.power_name": [
+      "Agility",
+      "Accelerated Healing"
+    ],
+    "hero_power.hero_id": [
+      1,
+      2
+    ],
+    "hero_power.power_id": [
+      1,
+      18
+    ]
+  },
+  "codebase_community": {
+    "badges.id": [
+      1,
+      2
+    ],
+    "badges.userid": [
+      5,
+      6
+    ],
+    "badges.name": [
+      "Teacher",
+      "Student"
+    ],
+    "badges.date": [
+      "2010-07-19 19:39:07.0",
+      "2010-07-19 19:39:08.0"
+    ],
+    "comments.id": [
+      1,
+      2
+    ],
+    "comments.postid": [
+      3,
+      5
+    ],
+    "comments.score": [
+      5,
+      0
+    ],
+    "comments.text": [
+      "Could be a poster child fo argumentative",
+      "Yes, R is nice- but WHY is it 'valuable'"
+    ],
+    "comments.creationdate": [
+      "2010-07-19 19:15:52.0",
+      "2010-07-19 19:16:14.0"
+    ],
+    "comments.userid": [
+      13,
+      37
+    ],
+    "comments.userdisplayname": [
+      "user28",
+      "Statprof"
+    ],
+    "posthistory.id": [
+      1,
+      2
+    ],
+    "posthistory.posthistorytypeid": [
+      2,
+      1
+    ],
+    "posthistory.postid": [
+      1,
+      2
+    ],
+    "posthistory.revisionguid": [
+      "e58bf7fd-e60f-4c58-a6e4-dfc91cf98a69",
+      "18bf9150-f1cb-432d-b7b7-26d2f8e33581"
+    ],
+    "posthistory.creationdate": [
+      "2010-07-19 19:12:12.0",
+      "2010-07-19 19:12:57.0"
+    ],
+    "posthistory.userid": [
+      8,
+      24
+    ],
+    "posthistory.text": [
+      "How should I elicit prior distributions ",
+      "Eliciting priors from experts"
+    ],
+    "posthistory.comment": [
+      "edited tags",
+      "add content from the comments;"
+    ],
+    "posthistory.userdisplayname": [
+      "user28",
+      "user209"
+    ],
+    "postlinks.id": [
+      108,
+      145
+    ],
+    "postlinks.creationdate": [
+      "2010-07-21 14:47:33.0",
+      "2010-07-23 16:30:41.0"
+    ],
+    "postlinks.postid": [
+      395,
+      548
+    ],
+    "postlinks.relatedpostid": [
+      173,
+      539
+    ],
+    "postlinks.linktypeid": [
+      1,
+      3
+    ],
+    "posts.id": [
+      1,
+      2
+    ],
+    "posts.posttypeid": [
+      1,
+      2
+    ],
+    "posts.acceptedanswerid": [
+      15,
+      59
+    ],
+    "posts.creaiondate": [
+      "2010-07-19 19:12:12.0",
+      "2010-07-19 19:12:57.0"
+    ],
+    "posts.score": [
+      23,
+      22
+    ],
+    "posts.viewcount": [
+      1278,
+      8198
+    ],
+    "posts.body": [
+      "<p>How should I elicit prior distributio",
+      "<p>In many different statistical methods"
+    ],
+    "posts.owneruserid": [
+      8,
+      24
+    ],
+    "posts.lasactivitydate": [
+      "2010-09-15 21:08:26.0",
+      "2012-11-12 09:21:54.0"
+    ],
+    "posts.title": [
+      "Eliciting priors from experts",
+      "What is normality?"
+    ],
+    "posts.tags": [
+      "<bayesian><prior><elicitation>",
+      "<distributions><normality>"
+    ],
+    "posts.answercount": [
+      5,
+      7
+    ],
+    "posts.commentcount": [
+      1,
+      4
+    ],
+    "posts.favoritecount": [
+      14,
+      8
+    ],
+    "posts.lasteditoruserid": [
+      88,
+      183
+    ],
+    "posts.lasteditdate": [
+      "2010-08-07 17:56:44.0",
+      "2011-02-12 05:50:03.0"
+    ],
+    "posts.communityowneddate": [
+      "2010-07-19 19:13:28.0",
+      "2010-07-19 19:14:43.0"
+    ],
+    "posts.parentid": [
+      3,
+      7
+    ],
+    "posts.closeddate": [
+      "2010-07-19 20:19:46.0",
+      "2010-08-05 13:06:12.0"
+    ],
+    "posts.ownerdisplayname": [
+      "user28",
+      "user209"
+    ],
+    "posts.lasteditordisplayname": [
+      "user28",
+      "user10525"
+    ],
+    "tags.id": [
+      1,
+      2
+    ],
+    "tags.tagname": [
+      "bayesian",
+      "prior"
+    ],
+    "tags.count": [
+      1342,
+      168
+    ],
+    "tags.excerptpostid": [
+      20258,
+      62158
+    ],
+    "tags.wikipostid": [
+      20257,
+      62157
+    ],
+    "users.id": [
+      -1,
+      2
+    ],
+    "users.reputation": [
+      1,
+      101
+    ],
+    "users.creationdate": [
+      "2010-07-19 06:55:26.0",
+      "2010-07-19 14:01:36.0"
+    ],
+    "users.displayname": [
+      "Community",
+      "Geoff Dalgas"
+    ],
+    "users.lastaccessdate": [
+      "2010-07-19 06:55:26.0",
+      "2013-11-12 22:07:23.0"
+    ],
+    "users.websiteurl": [
+      "http://meta.stackexchange.com/",
+      "http://stackoverflow.com"
+    ],
+    "users.location": [
+      "on the server farm",
+      "Corvallis, OR"
+    ],
+    "users.aboutme": [
+      "<p>Hi, I'm not really a person.</p>\n\n<p>",
+      "<p>Developer on the StackOverflow team. "
+    ],
+    "users.views": [
+      0,
+      25
+    ],
+    "users.upvotes": [
+      5007,
+      3
+    ],
+    "users.downvotes": [
+      1920,
+      0
+    ],
+    "users.accountid": [
+      -1,
+      2
+    ],
+    "users.age": [
+      37,
+      35
+    ],
+    "users.profileimageurl": [
+      "http://i.stack.imgur.com/d1oHX.jpg",
+      "http://i.stack.imgur.com/km1pr.jpg"
+    ],
+    "votes.id": [
+      1,
+      2
+    ],
+    "votes.postid": [
+      3,
+      2
+    ],
+    "votes.votetypeid": [
+      2,
+      5
+    ],
+    "votes.creationdate": [
+      "2010-07-19",
+      "2010-07-20"
+    ],
+    "votes.userid": [
+      58,
+      6
+    ],
+    "votes.bountyamount": [
+      50,
+      25
+    ]
+  }
+}
