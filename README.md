@@ -10,6 +10,25 @@
 <a href="https://github.com/MPX0222/SQL-R1/stargazers"><img src="https://img.shields.io/github/stars/MPX0222/SQL-R1?style=flat-square&color=946CE6"/></a>
 </div>
 
+<div align="center">
+
+<p>
+    <a href="https://github.com/MPX0222">Peixian Ma</a><sup>1,2</sup>&nbsp;&nbsp;
+    <a href="https://idea-finai.github.io/SQL-R1/">Xialie Zhuang</a><sup>1,3</sup>&nbsp;&nbsp;
+    <a href="https://idea-finai.github.io/SQL-R1/">Chengjin Xu</a><sup>1,4</sup>&nbsp;&nbsp;
+    <a href="https://idea-finai.github.io/SQL-R1/">Xuhui Jiang</a><sup>1,4</sup>&nbsp;&nbsp;
+    <a href="https://idea-finai.github.io/SQL-R1/">Ran Chen</a><sup>1</sup>&nbsp;&nbsp;
+    <a href="https://idea-finai.github.io/SQL-R1/">Jian Guo</a><sup>1</sup>
+</p>
+
+<p>
+    <sup>1</sup>IDEA Research, International Digital Economy Academy
+    <sup>2</sup>The Hong Kong University of Science and Technology (Guangzhou)
+    <sup>3</sup>University of Chinese Academy of Science
+    <sup>4</sup>DataArc Tech Ltd.
+</p>
+</div>
+
 
 > 🚧 **Note:** This repository is under active development. We will be continuously updating with model weights, training code, and more resources in the coming weeks. Stay tuned! ✨
 
@@ -115,7 +134,7 @@ pip install wandb IPython matplotlib sqlparse func_timeout
 
 1. Run training:
 ```bash
-sh sh/train_sqlr1.sh
+sh sh/train.sh
 ```
 
 2. Run inference:
@@ -133,4 +152,4 @@ sh sh/eval_bird.sh
 
 ## Thanks for
 
-We thank [OmniSQL](https://github.com/GIST-IRR/OmniSQL) and follow their evaluation code and database information retrieval code. We have adapted and modified their evaluation scripts for our project.
+We thank [OmniSQL](https://github.com/RUCKBReasoning/OmniSQL) and follow their evaluation code and database information retrieval code. We have adapted and modified their evaluation scripts for our project.
