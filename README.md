@@ -27,6 +27,7 @@
 <a href="https://huggingface.co/MPX0222forHF/SQL-R1-7B"><img src="https://img.shields.io/badge/🤗_HuggingFace-SQL--R1-FF9D00?style=flat-square"/></a>
 <a href="https://github.com/MPX0222/SQL-R1/stargazers"><img src="https://img.shields.io/github/stars/MPX0222/SQL-R1?style=flat-square&color=946CE6"/></a>
 </div>
+<br>
 
 > 🚧 **Note:** This repository is under active development. We will be continuously updating with model weights, training code, and more resources in the coming weeks. Stay tuned! ✨
 
@@ -36,6 +37,10 @@ Natural Language to SQL (NL2SQL) enables intuitive interactions with databases b
 
 <div align="center">
 <img src="images/overview.png" alt="SQL-R1 Overview" width="800"/>
+<p align="center">
+Figure 1: Demonstration of our work.
+</p>
+
 </div>
 
 
@@ -137,7 +142,7 @@ sh sh/train.sh
 
 2. Run inference:
 ```bash
-sh sh/inference.sh"
+sh sh/inference.sh
 ```
 
 3. Run evaluation:
