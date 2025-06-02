@@ -5,7 +5,8 @@ logs/
 outputs/
 results/
 wandb/
-sh/
+# sh/
+*verl/models/
 openr1_ckpts/
 *.wandb
 *.out
