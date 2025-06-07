@@ -29,7 +29,7 @@
 </div>
 <br>
 
-> 🚧 **Note:** This repository is under active development. We will be continuously updating with model weights, training code, and more resources in the coming weeks. Stay tuned! ✨
+> 🚧 **Note:** This repository is fully open source. Welcome to star and cite our work! ✨
 
 ## 📖 Overview
 
@@ -65,7 +65,7 @@ Figure 1: Demonstration of our work.
 ## 🚀 Coming Soon Checklist
 
 - [x] 📊 Release model weights on HuggingFace
-- [x] 🔧 Open source training code
+- [x] 🔧 Open source training code and RL dataset
 - [x] 📝 Detailed documentation
 - [x] 🛠️ Environment setup guide
 
@@ -93,6 +93,7 @@ SQL-R1/
 ├── models/                           # Base models
 │   ├── Qwen2.5-Coder-3B-Instruct/   
 │   └── Qwen2.5-Coder-7B-Instruct/   
+......
 ├── sh/                               # Scripts for training, inference and evaluation
 ├── src/                              # Source code
 └── verl/                             # Verl framework
