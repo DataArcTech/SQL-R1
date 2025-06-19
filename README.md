@@ -22,8 +22,8 @@
 
 <div align="center" style="display: flex; gap: 5px; justify-content: center;">
 <a href="https://idea-finai.github.io/SQL-R1/"><img src="https://img.shields.io/badge/🏠_Homepage-SQL--R1-4B4B77?style=flat-square"/></a>
-<a href="https://arxiv.org/abs/2504.08600"><img src="https://img.shields.io/badge/📑_arXiv-2504.08600-00A98F?style=flat-square"/></a>
-<a href="https://github.com/MPX0222/SQL-R1"><img src="https://img.shields.io/badge/⭐_GitHub-SQL--R1-2F80ED?style=flat-square"/></a>
+<a href="https://arxiv.org/abs/2504.08600"><img src="https://img.shields.io/badge/arXiv-2504.08600-00A98F?style=flat-square&logo=arxiv"/></a>
+<a href="https://github.com/MPX0222/SQL-R1"><img src="https://img.shields.io/badge/GitHub-SQL--R1-2F80ED?style=flat-square&logo=github"/></a>
 <a href="https://huggingface.co/MPX0222forHF/SQL-R1-7B"><img src="https://img.shields.io/badge/🤗_HuggingFace-SQL--R1-FF9D00?style=flat-square"/></a>
 <a href="https://github.com/MPX0222/SQL-R1/stargazers"><img src="https://img.shields.io/github/stars/MPX0222/SQL-R1?style=flat-square&color=946CE6"/></a>
 </div>
@@ -57,7 +57,7 @@ Figure 1: Demonstration of our work.
 
 ## 📰 News
 
-- **[2024.05.27]** 🎉 We have released the full code of SQL-R1.
+- **[2024.05.27]** 🎉 We have released the full version of SQL-R1.
 - **[2024.05.21]** 🎉 We have released our model weights on Hugging Face! Check out the [Model Weights](#-model-weights) section below.
 - **[2024.04.11]** 📑 Our paper is now available on [arXiv](https://arxiv.org/abs/2504.08600).
 
