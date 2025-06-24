@@ -58,7 +58,7 @@ Figure 1: Demonstration of our work.
 ## 📰 News
 
 - **[2024.05.27]** 🎉 We have released the full version of SQL-R1.
-- **[2024.05.21]** 🎉 We have released our model weights on Hugging Face! Check out the [Model Weights](#-model-weights) section below.
+- **[2024.05.21]** 🎉 We have released our model weights on HuggingFace! Check out the [Model Weights](#-model-weights) section below.
 - **[2024.04.11]** 📑 Our paper is now available on [arXiv](https://arxiv.org/abs/2504.08600).
 
 
@@ -72,7 +72,7 @@ Figure 1: Demonstration of our work.
 
 ## 🤖 Model Weights
 
-We are excited to release our SQL-R1 model weights! You can find them on Hugging Face:
+We are excited to release our SQL-R1 model weights! You can find them on HuggingFace:
 
 | Model  | Size | Link |
 |-------------|-------------|------|
@@ -87,14 +87,14 @@ This repository is organized as follows:
 
 ```
 SQL-R1/
-├── data/                             # Data processing scripts and datasets
+├── data/                             # Datasets
 │   ├── Spider/      
 │   └── BIRD/        
-├── models/                           # Base models
+├── models/                           # Base models or checkpoints
 │   ├── Qwen2.5-Coder-3B-Instruct/   
 │   └── Qwen2.5-Coder-7B-Instruct/   
 ......
-├── sh/                               # Scripts for training, inference and evaluation
+├── sh/                               # Scripts for data processing, training, inference and evaluation
 ├── src/                              # Source code
 └── verl/                             # Verl framework
 ```
@@ -129,9 +129,9 @@ pip install -e .  # For verl integration
 pip install wandb IPython matplotlib sqlparse func_timeout
 ```
 
-4. Download the model weights from Hugging Face and put them in the `models/` directory
+4. Download the model weights from HuggingFace and put them in the `models/` directory. 
 
-5. Copy the database information in the `db_info` directory to the related dataset (`data/Spider/`, `data/BIRD/`) directory.
+5. For training, copy the training dataset in the `example_data` directory to the `data` directory. For inference, copy the database information in the `db_info` directory to the related dataset (`data/Spider`, `data/BIRD`) directory.
 
 ## 🚀 Quick Start
 > Note: Please set the related data paths and params before running the scripts.
