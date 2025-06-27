@@ -30,7 +30,7 @@
 <br>
 
 > [!NOTE]
-> 🚧  This repository is fully open source. Welcome to star and cite our work! ✨
+> 🚧  This repository is fully open source on arXiv, Github and HuggingFace. Welcome to star and cite our work! ✨
 
 ## 📖 Overview
 
@@ -135,7 +135,8 @@ pip install wandb IPython matplotlib sqlparse func_timeout
 5. For training, copy the training dataset in the `example_data` directory to the `data` directory. For inference, copy the database information in the `db_info` directory to the related dataset (`data/Spider`, `data/BIRD`) directory.
 
 ## 🚀 Quick Start
-> [!NOTE] Please set the related data paths and params before running the scripts.
+> [!NOTE] 
+> Please set the related data paths and params before running the scripts.
 
 1. Run training:
 ```bash
