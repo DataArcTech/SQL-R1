@@ -29,7 +29,8 @@
 </div>
 <br>
 
-> 🚧 **Note:** This repository is fully open source. Welcome to star and cite our work! ✨
+> [!NOTE]
+> 🚧  This repository is fully open source. Welcome to star and cite our work! ✨
 
 ## 📖 Overview
 
@@ -102,10 +103,11 @@ SQL-R1/
 
 ## 🛠️ Environment Setup
 
-### Prerequisites
-- Python 3.9+
-- CUDA 12.0+
-- 8 x 80GB+ GPU (for training) / 2 x 40GB GPU (for inference)
+> [!NOTE]
+> Prerequisites
+> - Python 3.9+
+> - CUDA 12.0+
+> - 8 x 80GB+ GPU (for training) / 2 x 40GB GPU (for inference)
 
 ### Installation
 
