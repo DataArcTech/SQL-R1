@@ -104,10 +104,9 @@ SQL-R1/
 ## 🛠️ Environment Setup
 
 > [!NOTE]
-> Prerequisites
-> - Python 3.9+
-> - CUDA 12.0+
-> - 8 x 80GB+ GPU (for training) / 2 x 40GB GPU (for inference)
+> - Environment: Python 3.9+
+> - CUDA Version: 12.0+ (for verl and vllm integration)
+> - GPU Prerequisites: 8 x 80GB+ GPU (for training) / 2 x 40GB GPU (for inference)
 
 ### Installation
 
@@ -136,7 +135,7 @@ pip install wandb IPython matplotlib sqlparse func_timeout
 5. For training, copy the training dataset in the `example_data` directory to the `data` directory. For inference, copy the database information in the `db_info` directory to the related dataset (`data/Spider`, `data/BIRD`) directory.
 
 ## 🚀 Quick Start
-> Note: Please set the related data paths and params before running the scripts.
+> [!NOTE] Please set the related data paths and params before running the scripts.
 
 1. Run training:
 ```bash
