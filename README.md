@@ -29,8 +29,11 @@
 </div>
 <br>
 
-> [!NOTE]
-> 🚧  This repository is fully open source on arXiv, Github and HuggingFace. Welcome to star and cite our work! ✨
+<div align="center" style="display: flex; gap: 5px; justify-content: center;">
+  <p>
+  <b>🚧  Our workis fully open source on arXiv, Github and HuggingFace. Welcome to star and cite our work! ✨</b> 
+  </p>
+</div>
 
 ## 📖 Overview
 
@@ -104,6 +107,7 @@ SQL-R1/
 ## 🛠️ Environment Setup
 
 > [!NOTE]
+> Before getting started, make sure your computing environment supports the following settings:
 > - Environment: Python 3.9+
 > - CUDA Version: 12.0+ (for verl and vllm integration)
 > - GPU Prerequisites: 8 x 80GB+ GPU (for training) / 2 x 40GB GPU (for inference)
@@ -132,11 +136,9 @@ pip install wandb IPython matplotlib sqlparse func_timeout
 
 4. Download the model weights from HuggingFace and put them in the `models/` directory. 
 
-5. For training, copy the training dataset in the `example_data` directory to the `data` directory. For inference, copy the database information in the `db_info` directory to the related dataset (`data/Spider`, `data/BIRD`) directory.
+5. For training, copy the training dataset in the `example_data` directory to the `data` directory. For inference, copy the database information in the `db_info` directory (including files forSpider-dev, Spider-test and BIRD-dev) to the related dataset (`data/Spider`, `data/BIRD`) directory.
 
 ## 🚀 Quick Start
-> [!NOTE] 
-> Please set the related data paths and params before running the scripts.
 
 1. Run training:
 ```bash
