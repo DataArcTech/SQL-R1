@@ -31,7 +31,7 @@
 
 <div align="center" style="display: flex; gap: 5px; justify-content: center;">
   <p>
-  <b>🚧  Our workis fully open source on arXiv, Github and HuggingFace. Welcome to star and cite our work! ✨</b> 
+  <b>🚧  Our work is fully open source on arXiv, Github and HuggingFace. Welcome to star and cite our work! ✨</b> 
   </p>
 </div>
 
