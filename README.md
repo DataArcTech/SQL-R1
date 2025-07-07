@@ -158,6 +158,30 @@ sh sh/eval_spider.sh
 sh sh/eval_bird.sh
 ```
 
+## 🌟 Applications
+
+SQL-R1 can be effectively utilized in the following key areas:
+
+1. **Foundation Model for Workflow Systems**
+   - Serves as a base model for complex database operations
+   - Enables seamless integration with existing workflow automation systems
+   - Supports customization and fine-tuning for specific business processes
+   - Provides robust API endpoints for system integration
+
+2. **Enhanced NL2SQL Interpretability**
+   - Generates detailed explanations for SQL query construction
+   - Provides step-by-step reasoning for query transformation
+   - Helps users understand the relationship between natural language and SQL syntax
+   - Offers visualization of query execution plans
+
+3. **Self-Evolving NL2SQL Agent Checkpoint**
+   - Acts as a foundation checkpoint for continuous learning
+   - Enables iterative improvement through feedback loops
+   - Supports transfer learning for domain-specific adaptations
+   - Facilitates model versioning and performance tracking
+
+This may be added in the future work. If you have any ideas, please feel free to contact us.
+
 ## Thanks for
 
 We thank [OmniSQL](https://github.com/RUCKBReasoning/OmniSQL) and follow their evaluation code and database information retrieval code. We have adapted and modified their evaluation scripts for our project.
