@@ -25,6 +25,7 @@
 <a href="https://arxiv.org/abs/2504.08600"><img src="https://img.shields.io/badge/arXiv-2504.08600-00A98F?style=flat-square&logo=arxiv"/></a>
 <a href="https://github.com/MPX0222/SQL-R1"><img src="https://img.shields.io/badge/GitHub-SQL--R1-2F80ED?style=flat-square&logo=github"/></a>
 <a href="https://huggingface.co/MPX0222forHF/SQL-R1-7B"><img src="https://img.shields.io/badge/🤗_HuggingFace-SQL--R1-FF9D00?style=flat-square"/></a>
+<a href="https://www.alphaxiv.org/abs/2504.08600"><img src="https://img.shields.io/badge/alphaXiv-SQL--R1-red?style=flat-square&logo=arxiv"/></a>
 <a href="https://github.com/MPX0222/SQL-R1/stargazers"><img src="https://img.shields.io/github/stars/MPX0222/SQL-R1?style=flat-square&color=946CE6"/></a>
 </div>
 <br>
