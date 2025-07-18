@@ -62,9 +62,9 @@ Figure 1: Demonstration of our work.
 
 ## 📰 News
 
-- **[2024.05.27]** 🎉 We have released the full version of SQL-R1.
-- **[2024.05.21]** 🎉 We have released our model weights on HuggingFace! Check out the [Model Weights](#-model-weights) section below.
-- **[2024.04.11]** 📑 Our paper is now available on [arXiv](https://arxiv.org/abs/2504.08600).
+- **[2025.05.27]** 🎉 We have released the full version of SQL-R1.
+- **[2025.05.21]** 🎉 We have released our model weights on HuggingFace! Check out the [Model Weights](#-model-weights) section below.
+- **[2025.04.11]** 📑 Our paper is now available on [arXiv](https://arxiv.org/abs/2504.08600).
 
 
 ## 🚀 Coming Soon Checklist
